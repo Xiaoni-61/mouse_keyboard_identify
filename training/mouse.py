@@ -1,15 +1,15 @@
 #!/usr/bin/env python
 # -*- coding:utf-8 -*-
-# @Time  : 30/4/2022 下午 2:44
+# @Time  : 2/5/2022 下午 11:00
 # @Author: xiaoni
-# @File  : keyboard.py
+# @File  : mouse.py
+
 
 from sklearn import svm
 import numpy as np
 import sklearn
 
 import time
-
 
 
 def keyboardEvent_label(s):
@@ -34,14 +34,15 @@ def people_label(s):
 
 def load_data(t):
     sum = np.array([])
-    # for i in range(len(keyboardEventName)):
-    #     for j in range(len(peopleName)):
-    for i in range(1):
-        for j in range(10):
+    for j in range(len(peopleName)):
+        for i in range(len(keyboardEventName)):
+    # for i in range(1):
+    #     for j in range(3):
             # D:\大学生活\大四下\计算机毕设\代码\data\keyboard_data\微博键盘_于高远_60s
-            path = 'data/keyboard_data/' + keyboardEventName[i] + '_' + peopleName[j] + '_' + (str)(t) + "0s/" + \
-                   keyboardEventName[i] + '_' + peopleName[j] + '_' + (str)(t) + "0s" + ".txt"
-            # path = 'data/keyboard_data/'+keyboardEventName[i]+'_'+peopleName[j]+'_'+"60s/"+"test.txt"
+            # path = 'data/mouse_data/' + keyboardEventName[i] + '_' + peopleName[j] + '_' + (str)(t) + "0s/" + \
+            #       keyboardEventName[i] + '_' + peopleName[j] + '_' + (str)(t) + "0s" + ".txt"
+            path = 'data/mouse_data/' + peopleName[j] + '_' + (str)(t) + '0s/' + peopleName[j] + '_' + \
+                   mouseEventName[i] + '_' + (str)(t) + '0s' + ".txt"
             # data = np.loadtxt(path, delimiter=' ', converters={48510: people_label})
             data = file2array(path)
             if j == 0 and i == 0:
@@ -49,7 +50,7 @@ def load_data(t):
             else:
                 sum = np.concatenate((sum, data))
             del data
-            print(peopleName[j] + keyboardEventName[i])
+            print(peopleName[j] + mouseEventName[i])
     return sum
 
 
@@ -63,11 +64,11 @@ def file2array(path, delimiter=' '):  # delimiter是数据分隔符
     for i in range(0, len(data_list) - 1):
         data_list[i][-2] = people_label(data_list[i][-2])
     for i in range(0, len(data_list) - 1):
-        data_list[i][-1] = keyboardEvent_label(data_list[i][-1])
+        data_list[i][-1] = mouseEvent_label(data_list[i][-1])
         data_list[i].append(data_list[i][-2] * 100 + data_list[i][-1])
     for i in range(0, len(data_list) - 1):
         data_list[i] = np.array(data_list[i])
-        data_list[i] = [(int)(p) for p in data_list[i]]
+        data_list[i] = [np.float32(p) for p in data_list[i]]
         if i == 0:
             sum = data_list[i]
         elif i == 1:
@@ -107,18 +108,20 @@ if __name__ == "__main__":
 
     keyboardEventName = ['微博键盘', '淘宝键盘', '游戏键盘', '记事本键盘']
     mouseEventName = ['微博鼠标', '淘宝鼠标', '游戏鼠标', '记事本鼠标']
-    for t in range(1,6):
+    for t in range(1, 6):
         data = load_data(t)
-        x, y, z = np.split(data, indices_or_sections=(48510, 48512), axis=1)  # x为数据，y为标签,axis是分割的方向，1表示横向，0表示纵向，默认为0
-        x = x[:, 0:48510]  # 为便于后边画图显示，只选取前两维度。若不用画图，可选取前四列x[:,0:4]
+        x, y, z = np.split(data, indices_or_sections=(43, 45), axis=1)  # x为数据，y为标签,axis是分割的方向，1表示横向，0表示纵向，默认为0
+        x = x[:, 0:43]  # 为便于后边画图显示，只选取前两维度。若不用画图，可选取前四列x[:,0:4]
         train_data, test_data, train_label, test_label = sklearn.model_selection.train_test_split(x,
                                                                                                   z,
                                                                                                   random_state=1,
                                                                                                   # 作用是通过随机数来随机取得一定量得样本作为训练样本和测试样本
-                                                                                                  train_size=0.6,
-                                                                                                  test_size=0.4)
+                                                                                                  train_size=0.7,
+                                                                                                  test_size=0.3)
         # train_data:训练样本，test_data：测试样本，train_label：训练样本标签，test_label：测试样本标签
-        classifier = svm.SVC(C=1, kernel='rbf', gamma=20, decision_function_shape='ovr')  # ovr:一对多策略 高斯核
+        classifier = svm.SVC(C=1, kernel='rbf', gamma=30, decision_function_shape='ovo')  # ovr:一对多策略 高斯核
+        # classifier = svm.SVC(C=1, kernel='sigmoid')  # ovr:一对多策略 高斯核
+        print("开始训练！")
         classifier.fit(train_data, train_label.ravel())  # ravel函数在降维时默认是行序优先
 
         # 4.计算svc分类器的准确率
@@ -130,4 +133,4 @@ if __name__ == "__main__":
 
     time_end = time.time()
     time = time_end - time_begin
-    print("time:"+(str)(time))
+    print("time:" + (str)(time))
