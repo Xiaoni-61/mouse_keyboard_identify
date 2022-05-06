@@ -63,10 +63,10 @@ void mergedata() {
 //建立按键和数组下标的映射
 void mapping() {
     ifstream hashfile("hash.txt");
-    string key11;
+    string key111;
     int cnt = 0;
-    while (getline(hashfile, key11)) {
-        keytonum[key11] = cnt++;
+    while (getline(hashfile, key111)) {
+        keytonum[key111] = cnt++;
     }
 	
 }
@@ -101,7 +101,7 @@ void readdata() {
     for (int i = 0; i < cnt; i++) {
         if (keytmp[i][0] == '<')
             strcpy(keytmp[i], ",<");
-        else if (!strcmp(keytmp[i], "空格键 "))
+        else if (!strcmp(keytmp[i], "空格键"))
             strcpy(keytmp[i], "SPACE");
         //cout << keytmp[i] << endl;
     }
@@ -109,19 +109,40 @@ void readdata() {
     //记录有效数据
     for (int i = 0; i + 1 < cnt; i++) {
         //第一个按键为"dn"，且第二个按键为"up"，且两组数据的key相同，则记录该组数据
-        if (!strcmp(op[i], "dn") && !strcmp(op[i + 1], "up") && !strcmp(keytmp[i], keytmp[i + 1])) {
-            Time[truesize] = Timetmp[i];
-            Time[truesize + 1] = Timetmp[i + 1];
-            strcpy(key[truesize], keytmp[i]);
-            strcpy(key[truesize + 1], keytmp[i + 1]);
-            i++;
-            truesize += 2;
-        }
+
+		if (!strcmp(op[i], "up"))
+			continue;
+		if (!strcmp(op[i], "dn") && !strcmp(op[i + 1], "up") && !strcmp(keytmp[i], keytmp[i + 1])) {
+			Time[truesize] = Timetmp[i];
+			Time[truesize + 1] = Timetmp[i + 1];
+			strcpy(key[truesize], keytmp[i]);
+			strcpy(key[truesize + 1], keytmp[i + 1]);
+			i++;
+			truesize += 2;
+			continue;
+		}
+		if (!strcmp(op[i], "dn") && !strcmp(op[i + 2], "up") && !strcmp(keytmp[i], keytmp[i + 2])) {
+			Time[truesize] = Timetmp[i];
+			Time[truesize + 1] = Timetmp[i + 2];
+			strcpy(key[truesize], keytmp[i]);
+			strcpy(key[truesize + 1], keytmp[i + 2]);
+
+			truesize += 2;
+			continue;
+		}
+		if (!strcmp(op[i], "dn") && !strcmp(op[i + 3], "up") && !strcmp(keytmp[i], keytmp[i + 3])) {
+			Time[truesize] = Timetmp[i];
+			Time[truesize + 1] = Timetmp[i + 3];
+			strcpy(key[truesize], keytmp[i]);
+			strcpy(key[truesize + 1], keytmp[i + 3]);
+			truesize += 2;
+			continue;
+		}
     }
 }
 
 //输出数据
-void outputdata(LL st, LL ed, int user, int delta, string filename, char username[10] ,char eventname[10]) { //四个参数分别为：开始时间、结束时间、用户信息、时间片
+void outputdata(LL st, LL ed, int user, int delta, string filename, char username[30] ,char eventname[30]) { //四个参数分别为：开始时间、结束时间、用户信息、时间片
     LL DT[N], FAT[N][N], FTC[N][N], FTB[N][N], FTD[N][N], cnt[N][N]; //cnt记录a->b的出现的次数，用于计算平均值
 
     memset(DT, 0, sizeof DT);		//某个键 从按下到抬起的时间
@@ -220,7 +241,7 @@ string UTF8ToGB(const char* str)
 
 int main()
 {
-    string check = "50people";
+    string check = "tenPeople";
     // check = UTF8ToGB(check.c_str());
     string file_path;
     cout << "please input file address:\n";
@@ -239,7 +260,7 @@ int main()
             path = line;
             splitpath = path;
             const char* sep = "\\"; //可按多个字符来分割
-            char p[10][10];
+            char p[15][30];
             char* save = NULL;
             memset(p, 0, sizeof(char) * 100);//对p这个二维数组进行初始化 0
             strcpy(p[0], strtok((char*)splitpath.c_str(), sep)); //用sep进行分解，之后把值赋给p[0]
@@ -270,7 +291,7 @@ int main()
             readdata();
 
             //st为鼠标开始记录的时间，ed为经过10分钟后结束的时间
-            LL st = START, ed = st + 1000 * 10 * 60;
+            LL st = START, ed = st + 1000 * 60 * 60;
 
             //用户姓名
             /*
@@ -291,19 +312,19 @@ int main()
             int all_overlapping[1] = { 0 };
             //遍历每一种时间片
 			mkdir("data");
-            for (int interval = 10 ; interval < 61; interval+=10)  //时间片
+            for (int interval = 1 ; interval < 11; interval+=1)  //时间片
                 for (int k = 0; k < 1; k++) {
-                    string dir = "data/" + string(p[7]) + "_" + string(p[6]) + "_" + to_string(interval) + "s";
+                    string dir = "data/" + string(p[7]) + "_" + string(p[6]) + "_" + to_string(interval*30) + "s";
 					if (_access(dir.c_str(), 0) == -1)
 						if (mkdir(dir.c_str()) == 0)
 							printf("successfully create!\n");
-                    string filename = "./data/" + string(p[7]) + "_" + string(p[6]) + "_" + to_string(interval) + "s/" + string(p[7]) + "_" + string(p[6]) + "_" + to_string(interval) + "s.txt";
+                    string filename = "./data/" + string(p[7]) + "_" + string(p[6]) + "_" + to_string(interval*30) + "s/" + string(p[7]) + "_" + string(p[6]) + "_" + to_string(interval) + "s.txt";
                     // string filename = "./data/" + string(p[3]) + "_" + to_string(interval) + "s/" + string(p[2]) + "_" + string(p[3]) + "_" + to_string(interval) + "s_" + to_string(all_overlapping[k] * 100) + "%.txt";
                     //string filename = "./" + string("记事本键盘_") + to_string(delta[k]) + "s/" + string(p[2]) + "_" + string("记事本键盘_") + to_string(delta[k]) + "s.txt";
                     //遍历开始时间到结束时间，按时间片的长度递增
-                    for (LL i = st; i < ed; i += (1000 * interval * (1 - all_overlapping[k]))) {
+                    for (LL i = st; i < ed; i += (30000 * interval * (1 - all_overlapping[k]))) {
                         //以当前时间为开始时间，以当前时间+时间片大小为结束时间，进行数据输出
-                        outputdata(i, i + 1000 * interval, 1, interval, filename, p[6], p[7]);
+                        outputdata(i, i + 30000 * interval, 1, interval, filename, p[6], p[7]);
                         //打印当前的时间片以及开始后秒数
                         cout << p[6] << '_' << p[7] << ' ' <<interval << ' ' << (i - st) / 1000 << endl;
                     }
