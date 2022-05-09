@@ -1,11 +1,12 @@
 #!/usr/bin/env python
 # -*- coding:utf-8 -*-
-# @Time  : 6/5/2022 下午 2:43
+# @Time  : 7/5/2022 上午 10:39
 # @Author: xiaoni
-# @File  : pre_keyboard.py
+# @File  : pre_mouse.py
+
 
 '''
-    在维度的层面，去除所有数据没有用到的特征，使得分类结果更为精确
+    根据时间片进行划分
 '''
 
 from sklearn import svm
@@ -50,12 +51,12 @@ def load_data(t):
     # i 指第几个小时的数据
     for i in range(10):
         for j in range(len(peopleName)):
-    # for i in range(1):
-    #     for j in range(2):
+            # for i in range(1):
+            #     for j in range(2):
 
-            path = 'D:\大学生活\大四下\计算机毕设\数据2\Keyboard\keyboard\data\\' + str(i + 1) + '小时_keyboard_' + peopleName[
-                j] + '_' + str(t * 30) + 's' + '\\' + str(i + 1) + '小时_keyboard_' + peopleName[j] + '_' + str(
-                t) + 's.txt'
+            path = 'D:\大学生活\大四下\计算机毕设\代码\\training_MutiKernel\data\mouse_data\mid_data\\' + peopleName[
+                j] + '_' + str(t * 30) + 's' + '\\' + peopleName[j] + '_' + str(i + 1) + '小时_mousemovements_' + str(
+                t * 30) + 's.txt'
             # path = 'data/keyboard_data/' + keyboardEventName[i] + '_' + peopleName[j] + '_' + (str)(t) + "0s/" + \
             #        keyboardEventName[i] + '_' + peopleName[j] + '_' + (str)(t) + "0s" + ".txt"
             # path = 'data/keyboard_data/'+keyboardEventName[i]+'_'+peopleName[j]+'_'+"60s/"+"test.txt"
@@ -85,7 +86,7 @@ def file2array(path, delimiter=' '):  # delimiter是数据分隔符
         # data_list[i].append(data_list[i][-2] * 100 + data_list[i][-1])
     for i in range(0, len(data_list)):
         data_list[i] = np.array(data_list[i])
-        data_list[i] = [(int)(p) for p in data_list[i]]
+        data_list[i] = [float(p) for p in data_list[i]]
         if i == 0:
             sum = data_list[i]
         elif i == 1:
@@ -116,8 +117,8 @@ def file2array(path, delimiter=' '):  # delimiter是数据分隔符
 
 if __name__ == "__main__":
     logging.basicConfig(level=logging.DEBUG  # 设置日志输出格式
-                        , filename="pre_keyboard.log"  # log日志输出的文件位置和文件名
-                        # , filemode="w"  # 文件的写入格式，w为重新写入文件，默认是追加
+                        , filename="pre_mouse.log"  # log日志输出的文件位置和文件名
+                        , filemode="w"  # 文件的写入格式，w为重新写入文件，默认是追加
                         ,
                         format="%(asctime)s - %(name)s - %(levelname)-9s - %(filename)-8s : %(lineno)s line - %(message)s"
                         # -8表示占位符，让输出左对齐，输出长度都为8位
@@ -130,47 +131,23 @@ if __name__ == "__main__":
     peopleName = ['chenyu', 'dongzhenyu', 'leishengchuan', 'liyajie', 'maoyu', 'niudanyang', 'renqiuchen',
                   'shenyanping', 'wangcheng', 'wanghe']
 
-    keyboardEventName = ['微博键盘', '淘宝键盘', '游戏键盘', '记事本键盘']
-    mouseEventName = ['微博鼠标', '淘宝鼠标', '游戏鼠标', '记事本鼠标']
     # t代表时间间隔  *30s
     number = 0
-    for t in range(7, 11):
+    for t in range(1, 11):
         logging.debug(str(t * 30) + "s start read data!")
         data = load_data(t)
         logging.debug("read data ok!")
-        num1 = 0
-        length = len(data[0])
-        j = 0
-        while j < (len(data[0]) - num1):
-            number = number + 1
-            a = data[:, j]
 
-            for p in range(len(a)):
-                if a[p] == 0:
-                    continue
-                else:
-                    break
-
-            if p == (len(a) - 1):
-                data = np.delete(data, j, axis=1)
-                print(number)
-                if number % 10 == 0:
-                    logging.info("remove " + str(t * 30) + "s " + str(number))
-                j = j - 1
-                num1 = num1 + 1
-                # for t1 in range(len(data)):
-                #     data[t1].pop(j)
-            j = j + 1
 
         print("ok")
         logging.debug("remove ok!")
-        datapath = 'data\keyboard_data\\' + str(t * 30) + 's_sum'
+        datapath = 'data\mouse_data\\' + str(t * 30) + 's_sum'
         mkdir(datapath)
         datapath2 = datapath + '\\' + str(t * 30) + 's_sum.txt'
         file = open(datapath2, 'w')
         file.close()
         logging.debug("start save!")
-        np.savetxt(datapath2, data, fmt='%d', delimiter=' ')
+        np.savetxt(datapath2, data, fmt='%f', delimiter=' ')
         logging.debug("save ok!")
         del (data)
 

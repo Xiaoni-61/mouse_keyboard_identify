@@ -1,0 +1,543 @@
+2022-05-09 13:19:31 - root - DEBUG     - merge_keyboard_mouse.py : 27 line - -----------------60s----------------------
+2022-05-09 13:19:31 - root - DEBUG     - merge_keyboard_mouse.py : 28 line - -----------------C=1 ,gamma=5----------------------
+2022-05-09 13:19:31 - root - INFO      - merge_keyboard_mouse.py : 32 line - preprocessing data...
+2022-05-09 13:19:56 - root - INFO      - merge_keyboard_mouse.py : 42 line - preprocessing data...done
+2022-05-09 13:26:15 - root - INFO      - merge_keyboard_mouse.py : 83 line - computing linear_kernel Kernels...
+2022-05-09 13:26:18 - root - INFO      - merge_keyboard_mouse.py : 104 line - training AverageMKL...
+2022-05-09 13:26:21 - root - INFO      - merge_keyboard_mouse.py : 110 line - training AverageMKL...done
+2022-05-09 13:26:21 - root - INFO      - merge_keyboard_mouse.py : 115 line - AverageMKL 60s score:0.5061728395061729
+2022-05-09 13:26:21 - root - INFO      - merge_keyboard_mouse.py : 138 line - mouse:linear_kernel keyboard:linear_kernel
+2022-05-09 13:26:21 - root - INFO      - merge_keyboard_mouse.py : 139 line - Accuracy score:0.5061728395061729
+2022-05-09 13:26:21 - root - INFO      - merge_keyboard_mouse.py : 140 line - roc AUC score:0.8168111630432682
+2022-05-09 13:26:21 - root - INFO      - merge_keyboard_mouse.py : 149 line - computing rbf_kernel Kernels...
+2022-05-09 13:26:26 - root - INFO      - merge_keyboard_mouse.py : 164 line - training AverageMKL...
+2022-05-09 13:26:28 - root - INFO      - merge_keyboard_mouse.py : 168 line - training AverageMKL...done
+2022-05-09 13:26:28 - root - INFO      - merge_keyboard_mouse.py : 184 line - mouse:rbf_kernel keyboard:rbf_kernel
+2022-05-09 13:26:28 - root - INFO      - merge_keyboard_mouse.py : 185 line - Accuracy score:0.4691358024691358
+2022-05-09 13:26:28 - root - INFO      - merge_keyboard_mouse.py : 186 line - roc AUC score:0.7920139210332783
+2022-05-09 13:26:28 - root - INFO      - merge_keyboard_mouse.py : 195 line - computing mouse:polynomial_kernel keyboard:polynomial_kernel...
+2022-05-09 13:26:32 - root - INFO      - merge_keyboard_mouse.py : 210 line - training AverageMKL...
+2022-05-09 13:26:34 - root - INFO      - merge_keyboard_mouse.py : 214 line - training AverageMKL...done
+2022-05-09 13:26:35 - root - INFO      - merge_keyboard_mouse.py : 217 line - AverageMKL 60s score:0.49108367626886146
+2022-05-09 13:26:35 - root - INFO      - merge_keyboard_mouse.py : 233 line - mouse:polynomial_kernel keyboard:polynomial_kernel
+2022-05-09 13:26:35 - root - INFO      - merge_keyboard_mouse.py : 234 line - Accuracy score:0.49108367626886146
+2022-05-09 13:26:35 - root - INFO      - merge_keyboard_mouse.py : 235 line - roc AUC score:0.8157630154900621
+2022-05-09 13:26:35 - root - INFO      - merge_keyboard_mouse.py : 245 line - computing rbf_kernel Kernels...
+2022-05-09 13:26:40 - root - INFO      - merge_keyboard_mouse.py : 260 line - training AverageMKL...
+2022-05-09 13:26:43 - root - INFO      - merge_keyboard_mouse.py : 264 line - training AverageMKL...done
+2022-05-09 13:26:43 - root - INFO      - merge_keyboard_mouse.py : 267 line - AverageMKL 60s score:0.3772290809327846
+2022-05-09 13:26:44 - root - INFO      - merge_keyboard_mouse.py : 283 line - mouse:linear_kernel keyboard:rbf_kernel
+2022-05-09 13:26:44 - root - INFO      - merge_keyboard_mouse.py : 284 line - Accuracy score:0.3772290809327846
+2022-05-09 13:26:44 - root - INFO      - merge_keyboard_mouse.py : 285 line - roc AUC score:0.6753766267523708
+2022-05-09 13:26:44 - root - INFO      - merge_keyboard_mouse.py : 294 line - computing mouse:rbf_kernel keyboard:linear_kernel...
+2022-05-09 13:26:47 - root - INFO      - merge_keyboard_mouse.py : 309 line - training AverageMKL...
+2022-05-09 13:26:49 - root - INFO      - merge_keyboard_mouse.py : 313 line - training AverageMKL...done
+2022-05-09 13:26:49 - root - INFO      - merge_keyboard_mouse.py : 316 line - AverageMKL 60s score:0.5747599451303155
+2022-05-09 13:26:50 - root - INFO      - merge_keyboard_mouse.py : 332 line - mouse:rbf_kernel keyboard:linear_kernel
+2022-05-09 13:26:50 - root - INFO      - merge_keyboard_mouse.py : 333 line - Accuracy score:0.5747599451303155
+2022-05-09 13:26:50 - root - INFO      - merge_keyboard_mouse.py : 334 line - roc AUC score:0.8654698508631178
+2022-05-09 13:26:50 - root - INFO      - merge_keyboard_mouse.py : 344 line - computing mouse:polynomial_kernel keyboard:polynomial_kernel...
+2022-05-09 13:26:53 - root - INFO      - merge_keyboard_mouse.py : 359 line - training AverageMKL...
+2022-05-09 13:26:57 - root - INFO      - merge_keyboard_mouse.py : 363 line - training AverageMKL...done
+2022-05-09 13:26:58 - root - INFO      - merge_keyboard_mouse.py : 366 line - AverageMKL 60s score:0.45953360768175583
+2022-05-09 13:26:58 - root - INFO      - merge_keyboard_mouse.py : 382 line - mouse:polynomial_kernel keyboard:linear_kernel
+2022-05-09 13:26:58 - root - INFO      - merge_keyboard_mouse.py : 383 line - Accuracy score:0.45953360768175583
+2022-05-09 13:26:58 - root - INFO      - merge_keyboard_mouse.py : 384 line - roc AUC score:0.8009506952513753
+2022-05-09 13:26:58 - root - INFO      - merge_keyboard_mouse.py : 394 line - computing mouse:polynomial_kernel keyboard:polynomial_kernel...
+2022-05-09 13:27:02 - root - INFO      - merge_keyboard_mouse.py : 409 line - training AverageMKL...
+2022-05-09 13:27:04 - root - INFO      - merge_keyboard_mouse.py : 413 line - training AverageMKL...done
+2022-05-09 13:27:04 - root - INFO      - merge_keyboard_mouse.py : 416 line - AverageMKL 60s score:0.551440329218107
+2022-05-09 13:27:05 - root - INFO      - merge_keyboard_mouse.py : 432 line - mouse:linear_kernel keyboard:polynomial_kernel
+2022-05-09 13:27:05 - root - INFO      - merge_keyboard_mouse.py : 433 line - Accuracy score:0.551440329218107
+2022-05-09 13:27:05 - root - INFO      - merge_keyboard_mouse.py : 434 line - roc AUC score:0.8509833297502027
+2022-05-09 13:27:05 - root - INFO      - merge_keyboard_mouse.py : 444 line - computing mouse:polynomial_kernel keyboard:polynomial_kernel...
+2022-05-09 13:27:09 - root - INFO      - merge_keyboard_mouse.py : 459 line - training AverageMKL...
+2022-05-09 13:27:11 - root - INFO      - merge_keyboard_mouse.py : 463 line - training AverageMKL...done
+2022-05-09 13:27:12 - root - INFO      - merge_keyboard_mouse.py : 466 line - AverageMKL 60s score:0.4348422496570645
+2022-05-09 13:27:13 - root - INFO      - merge_keyboard_mouse.py : 482 line - mouse:polynomial_kernel keyboard:rbf_kernel
+2022-05-09 13:27:13 - root - INFO      - merge_keyboard_mouse.py : 483 line - Accuracy score:0.4348422496570645
+2022-05-09 13:27:13 - root - INFO      - merge_keyboard_mouse.py : 484 line - roc AUC score:0.7633414989083837
+2022-05-09 13:27:13 - root - INFO      - merge_keyboard_mouse.py : 494 line - computing mouse:polynomial_kernel keyboard:polynomial_kernel...
+2022-05-09 13:27:16 - root - INFO      - merge_keyboard_mouse.py : 509 line - training AverageMKL...
+2022-05-09 13:27:18 - root - INFO      - merge_keyboard_mouse.py : 513 line - training AverageMKL...done
+2022-05-09 13:27:19 - root - INFO      - merge_keyboard_mouse.py : 516 line - AverageMKL 60s score:0.5089163237311386
+2022-05-09 13:27:19 - root - INFO      - merge_keyboard_mouse.py : 532 line - mouse:rbf_kernel keyboard:polynomial_kernel
+2022-05-09 13:27:19 - root - INFO      - merge_keyboard_mouse.py : 533 line - Accuracy score:0.5089163237311386
+2022-05-09 13:27:19 - root - INFO      - merge_keyboard_mouse.py : 534 line - roc AUC score:0.8281517030844936
+2022-05-09 13:27:19 - root - DEBUG     - merge_keyboard_mouse.py : 27 line - -----------------90s----------------------
+2022-05-09 13:27:19 - root - DEBUG     - merge_keyboard_mouse.py : 28 line - -----------------C=1 ,gamma=5----------------------
+2022-05-09 13:27:19 - root - INFO      - merge_keyboard_mouse.py : 32 line - preprocessing data...
+2022-05-09 13:27:36 - root - INFO      - merge_keyboard_mouse.py : 42 line - preprocessing data...done
+2022-05-09 13:29:54 - root - INFO      - merge_keyboard_mouse.py : 83 line - computing linear_kernel Kernels...
+2022-05-09 13:29:55 - root - INFO      - merge_keyboard_mouse.py : 104 line - training AverageMKL...
+2022-05-09 13:29:57 - root - INFO      - merge_keyboard_mouse.py : 110 line - training AverageMKL...done
+2022-05-09 13:29:57 - root - INFO      - merge_keyboard_mouse.py : 115 line - AverageMKL 90s score:0.5088408644400786
+2022-05-09 13:29:57 - root - INFO      - merge_keyboard_mouse.py : 138 line - mouse:linear_kernel keyboard:linear_kernel
+2022-05-09 13:29:57 - root - INFO      - merge_keyboard_mouse.py : 139 line - Accuracy score:0.5088408644400786
+2022-05-09 13:29:57 - root - INFO      - merge_keyboard_mouse.py : 140 line - roc AUC score:0.8324697727331888
+2022-05-09 13:29:57 - root - INFO      - merge_keyboard_mouse.py : 149 line - computing rbf_kernel Kernels...
+2022-05-09 13:29:59 - root - INFO      - merge_keyboard_mouse.py : 164 line - training AverageMKL...
+2022-05-09 13:30:00 - root - INFO      - merge_keyboard_mouse.py : 168 line - training AverageMKL...done
+2022-05-09 13:30:01 - root - INFO      - merge_keyboard_mouse.py : 184 line - mouse:rbf_kernel keyboard:rbf_kernel
+2022-05-09 13:30:01 - root - INFO      - merge_keyboard_mouse.py : 185 line - Accuracy score:0.4636542239685658
+2022-05-09 13:30:01 - root - INFO      - merge_keyboard_mouse.py : 186 line - roc AUC score:0.816580863882755
+2022-05-09 13:30:01 - root - INFO      - merge_keyboard_mouse.py : 195 line - computing mouse:polynomial_kernel keyboard:polynomial_kernel...
+2022-05-09 13:30:02 - root - INFO      - merge_keyboard_mouse.py : 210 line - training AverageMKL...
+2022-05-09 13:30:04 - root - INFO      - merge_keyboard_mouse.py : 214 line - training AverageMKL...done
+2022-05-09 13:30:04 - root - INFO      - merge_keyboard_mouse.py : 217 line - AverageMKL 90s score:0.4931237721021611
+2022-05-09 13:30:04 - root - INFO      - merge_keyboard_mouse.py : 233 line - mouse:polynomial_kernel keyboard:polynomial_kernel
+2022-05-09 13:30:04 - root - INFO      - merge_keyboard_mouse.py : 234 line - Accuracy score:0.4931237721021611
+2022-05-09 13:30:04 - root - INFO      - merge_keyboard_mouse.py : 235 line - roc AUC score:0.8217342789003339
+2022-05-09 13:30:04 - root - INFO      - merge_keyboard_mouse.py : 245 line - computing rbf_kernel Kernels...
+2022-05-09 13:30:06 - root - INFO      - merge_keyboard_mouse.py : 260 line - training AverageMKL...
+2022-05-09 13:30:08 - root - INFO      - merge_keyboard_mouse.py : 264 line - training AverageMKL...done
+2022-05-09 13:30:08 - root - INFO      - merge_keyboard_mouse.py : 267 line - AverageMKL 90s score:0.3968565815324165
+2022-05-09 13:30:08 - root - INFO      - merge_keyboard_mouse.py : 283 line - mouse:linear_kernel keyboard:rbf_kernel
+2022-05-09 13:30:08 - root - INFO      - merge_keyboard_mouse.py : 284 line - Accuracy score:0.3968565815324165
+2022-05-09 13:30:08 - root - INFO      - merge_keyboard_mouse.py : 285 line - roc AUC score:0.698888993766081
+2022-05-09 13:30:08 - root - INFO      - merge_keyboard_mouse.py : 294 line - computing mouse:rbf_kernel keyboard:linear_kernel...
+2022-05-09 13:30:10 - root - INFO      - merge_keyboard_mouse.py : 309 line - training AverageMKL...
+2022-05-09 13:30:11 - root - INFO      - merge_keyboard_mouse.py : 313 line - training AverageMKL...done
+2022-05-09 13:30:11 - root - INFO      - merge_keyboard_mouse.py : 316 line - AverageMKL 90s score:0.5736738703339882
+2022-05-09 13:30:11 - root - INFO      - merge_keyboard_mouse.py : 332 line - mouse:rbf_kernel keyboard:linear_kernel
+2022-05-09 13:30:11 - root - INFO      - merge_keyboard_mouse.py : 333 line - Accuracy score:0.5736738703339882
+2022-05-09 13:30:11 - root - INFO      - merge_keyboard_mouse.py : 334 line - roc AUC score:0.8744437296035832
+2022-05-09 13:30:11 - root - INFO      - merge_keyboard_mouse.py : 344 line - computing mouse:polynomial_kernel keyboard:polynomial_kernel...
+2022-05-09 13:30:13 - root - INFO      - merge_keyboard_mouse.py : 359 line - training AverageMKL...
+2022-05-09 13:30:15 - root - INFO      - merge_keyboard_mouse.py : 363 line - training AverageMKL...done
+2022-05-09 13:30:15 - root - INFO      - merge_keyboard_mouse.py : 366 line - AverageMKL 90s score:0.44793713163064836
+2022-05-09 13:30:15 - root - INFO      - merge_keyboard_mouse.py : 382 line - mouse:polynomial_kernel keyboard:linear_kernel
+2022-05-09 13:30:15 - root - INFO      - merge_keyboard_mouse.py : 383 line - Accuracy score:0.44793713163064836
+2022-05-09 13:30:15 - root - INFO      - merge_keyboard_mouse.py : 384 line - roc AUC score:0.8057919606416858
+2022-05-09 13:30:15 - root - INFO      - merge_keyboard_mouse.py : 394 line - computing mouse:polynomial_kernel keyboard:polynomial_kernel...
+2022-05-09 13:30:17 - root - INFO      - merge_keyboard_mouse.py : 409 line - training AverageMKL...
+2022-05-09 13:30:18 - root - INFO      - merge_keyboard_mouse.py : 413 line - training AverageMKL...done
+2022-05-09 13:30:18 - root - INFO      - merge_keyboard_mouse.py : 416 line - AverageMKL 90s score:0.587426326129666
+2022-05-09 13:30:19 - root - INFO      - merge_keyboard_mouse.py : 432 line - mouse:linear_kernel keyboard:polynomial_kernel
+2022-05-09 13:30:19 - root - INFO      - merge_keyboard_mouse.py : 433 line - Accuracy score:0.587426326129666
+2022-05-09 13:30:19 - root - INFO      - merge_keyboard_mouse.py : 434 line - roc AUC score:0.8680261059777047
+2022-05-09 13:30:19 - root - INFO      - merge_keyboard_mouse.py : 444 line - computing mouse:polynomial_kernel keyboard:polynomial_kernel...
+2022-05-09 13:30:21 - root - INFO      - merge_keyboard_mouse.py : 459 line - training AverageMKL...
+2022-05-09 13:30:22 - root - INFO      - merge_keyboard_mouse.py : 463 line - training AverageMKL...done
+2022-05-09 13:30:22 - root - INFO      - merge_keyboard_mouse.py : 466 line - AverageMKL 90s score:0.4518664047151277
+2022-05-09 13:30:22 - root - INFO      - merge_keyboard_mouse.py : 482 line - mouse:polynomial_kernel keyboard:rbf_kernel
+2022-05-09 13:30:22 - root - INFO      - merge_keyboard_mouse.py : 483 line - Accuracy score:0.4518664047151277
+2022-05-09 13:30:22 - root - INFO      - merge_keyboard_mouse.py : 484 line - roc AUC score:0.7855426196329791
+2022-05-09 13:30:22 - root - INFO      - merge_keyboard_mouse.py : 494 line - computing mouse:polynomial_kernel keyboard:polynomial_kernel...
+2022-05-09 13:30:24 - root - INFO      - merge_keyboard_mouse.py : 509 line - training AverageMKL...
+2022-05-09 13:30:25 - root - INFO      - merge_keyboard_mouse.py : 513 line - training AverageMKL...done
+2022-05-09 13:30:25 - root - INFO      - merge_keyboard_mouse.py : 516 line - AverageMKL 90s score:0.4793713163064833
+2022-05-09 13:30:26 - root - INFO      - merge_keyboard_mouse.py : 532 line - mouse:rbf_kernel keyboard:polynomial_kernel
+2022-05-09 13:30:26 - root - INFO      - merge_keyboard_mouse.py : 533 line - Accuracy score:0.4793713163064833
+2022-05-09 13:30:26 - root - INFO      - merge_keyboard_mouse.py : 534 line - roc AUC score:0.8216349813388183
+2022-05-09 13:42:17 - root - DEBUG     - merge_keyboard_mouse.py : 27 line - -----------------120s----------------------
+2022-05-09 13:42:17 - root - DEBUG     - merge_keyboard_mouse.py : 28 line - ----------------- C=1 ,gamma=5 ----------------------
+2022-05-09 13:42:17 - root - INFO      - merge_keyboard_mouse.py : 32 line - preprocessing data...
+2022-05-09 13:42:19 - root - DEBUG     - merge_keyboard_mouse.py : 27 line - -----------------150s----------------------
+2022-05-09 13:42:19 - root - DEBUG     - merge_keyboard_mouse.py : 28 line - ----------------- C=1 ,gamma=5 ----------------------
+2022-05-09 13:42:19 - root - INFO      - merge_keyboard_mouse.py : 32 line - preprocessing data...
+2022-05-09 13:42:29 - root - INFO      - merge_keyboard_mouse.py : 47 line - preprocessing data...done
+2022-05-09 13:43:09 - root - INFO      - merge_keyboard_mouse.py : 88 line - computing linear_kernel Kernels...
+2022-05-09 13:43:10 - root - INFO      - merge_keyboard_mouse.py : 109 line - training AverageMKL...
+2022-05-09 13:43:11 - root - INFO      - merge_keyboard_mouse.py : 115 line - training AverageMKL...done
+2022-05-09 13:43:11 - root - INFO      - merge_keyboard_mouse.py : 120 line - AverageMKL 150s score:0.5817610062893082
+2022-05-09 13:43:11 - root - INFO      - merge_keyboard_mouse.py : 143 line - mouse:linear_kernel keyboard:linear_kernel
+2022-05-09 13:43:11 - root - INFO      - merge_keyboard_mouse.py : 144 line - Accuracy score:0.5817610062893082
+2022-05-09 13:43:11 - root - INFO      - merge_keyboard_mouse.py : 145 line - roc AUC score:0.8537491681837777
+2022-05-09 13:43:11 - root - INFO      - merge_keyboard_mouse.py : 154 line - computing rbf_kernel Kernels...
+2022-05-09 13:43:12 - root - INFO      - merge_keyboard_mouse.py : 169 line - training AverageMKL...
+2022-05-09 13:43:13 - root - INFO      - merge_keyboard_mouse.py : 173 line - training AverageMKL...done
+2022-05-09 13:43:13 - root - INFO      - merge_keyboard_mouse.py : 189 line - mouse:rbf_kernel keyboard:rbf_kernel
+2022-05-09 13:43:13 - root - INFO      - merge_keyboard_mouse.py : 190 line - Accuracy score:0.5314465408805031
+2022-05-09 13:43:13 - root - INFO      - merge_keyboard_mouse.py : 191 line - roc AUC score:0.8388622066533621
+2022-05-09 13:43:13 - root - INFO      - merge_keyboard_mouse.py : 200 line - computing mouse:polynomial_kernel keyboard:polynomial_kernel...
+2022-05-09 13:43:14 - root - INFO      - merge_keyboard_mouse.py : 215 line - training AverageMKL...
+2022-05-09 13:43:14 - root - INFO      - merge_keyboard_mouse.py : 219 line - training AverageMKL...done
+2022-05-09 13:43:14 - root - INFO      - merge_keyboard_mouse.py : 222 line - AverageMKL 150s score:0.4716981132075472
+2022-05-09 13:43:14 - root - INFO      - merge_keyboard_mouse.py : 238 line - mouse:polynomial_kernel keyboard:polynomial_kernel
+2022-05-09 13:43:14 - root - INFO      - merge_keyboard_mouse.py : 239 line - Accuracy score:0.4716981132075472
+2022-05-09 13:43:14 - root - INFO      - merge_keyboard_mouse.py : 240 line - roc AUC score:0.8119884152717235
+2022-05-09 13:43:14 - root - INFO      - merge_keyboard_mouse.py : 250 line - computing rbf_kernel Kernels...
+2022-05-09 13:43:15 - root - INFO      - merge_keyboard_mouse.py : 265 line - training AverageMKL...
+2022-05-09 13:43:16 - root - INFO      - merge_keyboard_mouse.py : 269 line - training AverageMKL...done
+2022-05-09 13:43:16 - root - INFO      - merge_keyboard_mouse.py : 272 line - AverageMKL 150s score:0.4591194968553459
+2022-05-09 13:43:16 - root - INFO      - merge_keyboard_mouse.py : 288 line - mouse:linear_kernel keyboard:rbf_kernel
+2022-05-09 13:43:16 - root - INFO      - merge_keyboard_mouse.py : 289 line - Accuracy score:0.4591194968553459
+2022-05-09 13:43:16 - root - INFO      - merge_keyboard_mouse.py : 290 line - roc AUC score:0.7296394772152173
+2022-05-09 13:43:16 - root - INFO      - merge_keyboard_mouse.py : 299 line - computing mouse:rbf_kernel keyboard:linear_kernel...
+2022-05-09 13:43:17 - root - INFO      - merge_keyboard_mouse.py : 314 line - training AverageMKL...
+2022-05-09 13:43:17 - root - INFO      - merge_keyboard_mouse.py : 318 line - training AverageMKL...done
+2022-05-09 13:43:17 - root - INFO      - merge_keyboard_mouse.py : 321 line - AverageMKL 150s score:0.6226415094339622
+2022-05-09 13:43:17 - root - INFO      - merge_keyboard_mouse.py : 337 line - mouse:rbf_kernel keyboard:linear_kernel
+2022-05-09 13:43:17 - root - INFO      - merge_keyboard_mouse.py : 338 line - Accuracy score:0.6226415094339622
+2022-05-09 13:43:17 - root - INFO      - merge_keyboard_mouse.py : 339 line - roc AUC score:0.8864275621753117
+2022-05-09 13:43:17 - root - INFO      - merge_keyboard_mouse.py : 349 line - computing mouse:polynomial_kernel keyboard:polynomial_kernel...
+2022-05-09 13:43:18 - root - INFO      - merge_keyboard_mouse.py : 364 line - training AverageMKL...
+2022-05-09 13:43:19 - root - INFO      - merge_keyboard_mouse.py : 368 line - training AverageMKL...done
+2022-05-09 13:43:19 - root - INFO      - merge_keyboard_mouse.py : 371 line - AverageMKL 150s score:0.44339622641509435
+2022-05-09 13:43:19 - root - INFO      - merge_keyboard_mouse.py : 387 line - mouse:polynomial_kernel keyboard:linear_kernel
+2022-05-09 13:43:19 - root - INFO      - merge_keyboard_mouse.py : 388 line - Accuracy score:0.44339622641509435
+2022-05-09 13:43:19 - root - INFO      - merge_keyboard_mouse.py : 389 line - roc AUC score:0.7910162441018872
+2022-05-09 13:43:19 - root - INFO      - merge_keyboard_mouse.py : 399 line - computing mouse:polynomial_kernel keyboard:polynomial_kernel...
+2022-05-09 13:43:20 - root - INFO      - merge_keyboard_mouse.py : 414 line - training AverageMKL...
+2022-05-09 13:43:20 - root - INFO      - merge_keyboard_mouse.py : 418 line - training AverageMKL...done
+2022-05-09 13:43:20 - root - INFO      - merge_keyboard_mouse.py : 421 line - AverageMKL 150s score:0.610062893081761
+2022-05-09 13:43:20 - root - INFO      - merge_keyboard_mouse.py : 437 line - mouse:linear_kernel keyboard:polynomial_kernel
+2022-05-09 13:43:20 - root - INFO      - merge_keyboard_mouse.py : 438 line - Accuracy score:0.610062893081761
+2022-05-09 13:43:20 - root - INFO      - merge_keyboard_mouse.py : 439 line - roc AUC score:0.8729089823913864
+2022-05-09 13:43:20 - root - INFO      - merge_keyboard_mouse.py : 449 line - computing mouse:polynomial_kernel keyboard:polynomial_kernel...
+2022-05-09 13:43:21 - root - INFO      - merge_keyboard_mouse.py : 464 line - training AverageMKL...
+2022-05-09 13:43:22 - root - INFO      - merge_keyboard_mouse.py : 468 line - training AverageMKL...done
+2022-05-09 13:43:22 - root - INFO      - merge_keyboard_mouse.py : 471 line - AverageMKL 150s score:0.5031446540880503
+2022-05-09 13:43:22 - root - INFO      - merge_keyboard_mouse.py : 487 line - mouse:polynomial_kernel keyboard:rbf_kernel
+2022-05-09 13:43:22 - root - INFO      - merge_keyboard_mouse.py : 488 line - Accuracy score:0.5031446540880503
+2022-05-09 13:43:22 - root - INFO      - merge_keyboard_mouse.py : 489 line - roc AUC score:0.8029228660918208
+2022-05-09 13:43:22 - root - INFO      - merge_keyboard_mouse.py : 499 line - computing mouse:polynomial_kernel keyboard:polynomial_kernel...
+2022-05-09 13:43:23 - root - INFO      - merge_keyboard_mouse.py : 514 line - training AverageMKL...
+2022-05-09 13:43:23 - root - INFO      - merge_keyboard_mouse.py : 518 line - training AverageMKL...done
+2022-05-09 13:43:23 - root - INFO      - merge_keyboard_mouse.py : 521 line - AverageMKL 150s score:0.4937106918238994
+2022-05-09 13:43:23 - root - INFO      - merge_keyboard_mouse.py : 537 line - mouse:rbf_kernel keyboard:polynomial_kernel 
+2022-05-09 13:43:23 - root - INFO      - merge_keyboard_mouse.py : 538 line - Accuracy score:0.4937106918238994
+2022-05-09 13:43:23 - root - INFO      - merge_keyboard_mouse.py : 539 line - roc AUC score:0.8138819161117203
+2022-05-09 13:43:23 - root - DEBUG     - merge_keyboard_mouse.py : 27 line - -----------------180s----------------------
+2022-05-09 13:43:23 - root - DEBUG     - merge_keyboard_mouse.py : 28 line - ----------------- C=1 ,gamma=5 ----------------------
+2022-05-09 13:43:23 - root - INFO      - merge_keyboard_mouse.py : 32 line - preprocessing data...
+2022-05-09 13:43:31 - root - INFO      - merge_keyboard_mouse.py : 47 line - preprocessing data...done
+2022-05-09 13:43:48 - root - INFO      - merge_keyboard_mouse.py : 88 line - computing linear_kernel Kernels...
+2022-05-09 13:43:48 - root - INFO      - merge_keyboard_mouse.py : 109 line - training AverageMKL...
+2022-05-09 13:43:49 - root - INFO      - merge_keyboard_mouse.py : 115 line - training AverageMKL...done
+2022-05-09 13:43:49 - root - INFO      - merge_keyboard_mouse.py : 120 line - AverageMKL 180s score:0.5985130111524164
+2022-05-09 13:43:49 - root - INFO      - merge_keyboard_mouse.py : 143 line - mouse:linear_kernel keyboard:linear_kernel
+2022-05-09 13:43:49 - root - INFO      - merge_keyboard_mouse.py : 144 line - Accuracy score:0.5985130111524164
+2022-05-09 13:43:49 - root - INFO      - merge_keyboard_mouse.py : 145 line - roc AUC score:0.8802906432908089
+2022-05-09 13:43:49 - root - INFO      - merge_keyboard_mouse.py : 154 line - computing rbf_kernel Kernels...
+2022-05-09 13:43:50 - root - INFO      - merge_keyboard_mouse.py : 169 line - training AverageMKL...
+2022-05-09 13:43:50 - root - INFO      - merge_keyboard_mouse.py : 173 line - training AverageMKL...done
+2022-05-09 13:43:50 - root - INFO      - merge_keyboard_mouse.py : 189 line - mouse:rbf_kernel keyboard:rbf_kernel
+2022-05-09 13:43:50 - root - INFO      - merge_keyboard_mouse.py : 190 line - Accuracy score:0.550185873605948
+2022-05-09 13:43:50 - root - INFO      - merge_keyboard_mouse.py : 191 line - roc AUC score:0.8644444502908722
+2022-05-09 13:43:50 - root - INFO      - merge_keyboard_mouse.py : 200 line - computing mouse:polynomial_kernel keyboard:polynomial_kernel...
+2022-05-09 13:43:50 - root - INFO      - merge_keyboard_mouse.py : 215 line - training AverageMKL...
+2022-05-09 13:43:51 - root - INFO      - merge_keyboard_mouse.py : 219 line - training AverageMKL...done
+2022-05-09 13:43:51 - root - INFO      - merge_keyboard_mouse.py : 222 line - AverageMKL 180s score:0.5241635687732342
+2022-05-09 13:43:51 - root - INFO      - merge_keyboard_mouse.py : 238 line - mouse:polynomial_kernel keyboard:polynomial_kernel
+2022-05-09 13:43:51 - root - INFO      - merge_keyboard_mouse.py : 239 line - Accuracy score:0.5241635687732342
+2022-05-09 13:43:51 - root - INFO      - merge_keyboard_mouse.py : 240 line - roc AUC score:0.8425411780793624
+2022-05-09 13:43:51 - root - INFO      - merge_keyboard_mouse.py : 250 line - computing rbf_kernel Kernels...
+2022-05-09 13:43:52 - root - INFO      - merge_keyboard_mouse.py : 265 line - training AverageMKL...
+2022-05-09 13:43:52 - root - INFO      - merge_keyboard_mouse.py : 269 line - training AverageMKL...done
+2022-05-09 13:43:52 - root - INFO      - merge_keyboard_mouse.py : 272 line - AverageMKL 180s score:0.483271375464684
+2022-05-09 13:43:52 - root - INFO      - merge_keyboard_mouse.py : 288 line - mouse:linear_kernel keyboard:rbf_kernel
+2022-05-09 13:43:52 - root - INFO      - merge_keyboard_mouse.py : 289 line - Accuracy score:0.483271375464684
+2022-05-09 13:43:52 - root - INFO      - merge_keyboard_mouse.py : 290 line - roc AUC score:0.7825316261525179
+2022-05-09 13:43:52 - root - INFO      - merge_keyboard_mouse.py : 299 line - computing mouse:rbf_kernel keyboard:linear_kernel...
+2022-05-09 13:43:53 - root - INFO      - merge_keyboard_mouse.py : 314 line - training AverageMKL...
+2022-05-09 13:43:53 - root - INFO      - merge_keyboard_mouse.py : 318 line - training AverageMKL...done
+2022-05-09 13:43:54 - root - INFO      - merge_keyboard_mouse.py : 321 line - AverageMKL 180s score:0.6468401486988847
+2022-05-09 13:43:54 - root - INFO      - merge_keyboard_mouse.py : 337 line - mouse:rbf_kernel keyboard:linear_kernel
+2022-05-09 13:43:54 - root - INFO      - merge_keyboard_mouse.py : 338 line - Accuracy score:0.6468401486988847
+2022-05-09 13:43:54 - root - INFO      - merge_keyboard_mouse.py : 339 line - roc AUC score:0.9079637128011713
+2022-05-09 13:43:54 - root - INFO      - merge_keyboard_mouse.py : 349 line - computing mouse:polynomial_kernel keyboard:polynomial_kernel...
+2022-05-09 13:43:54 - root - INFO      - merge_keyboard_mouse.py : 364 line - training AverageMKL...
+2022-05-09 13:43:54 - root - INFO      - merge_keyboard_mouse.py : 368 line - training AverageMKL...done
+2022-05-09 13:43:55 - root - INFO      - merge_keyboard_mouse.py : 371 line - AverageMKL 180s score:0.4944237918215613
+2022-05-09 13:43:55 - root - INFO      - merge_keyboard_mouse.py : 387 line - mouse:polynomial_kernel keyboard:linear_kernel
+2022-05-09 13:43:55 - root - INFO      - merge_keyboard_mouse.py : 388 line - Accuracy score:0.4944237918215613
+2022-05-09 13:43:55 - root - INFO      - merge_keyboard_mouse.py : 389 line - roc AUC score:0.8332891568316049
+2022-05-09 13:43:55 - root - INFO      - merge_keyboard_mouse.py : 399 line - computing mouse:polynomial_kernel keyboard:polynomial_kernel...
+2022-05-09 13:43:55 - root - INFO      - merge_keyboard_mouse.py : 414 line - training AverageMKL...
+2022-05-09 13:43:55 - root - INFO      - merge_keyboard_mouse.py : 418 line - training AverageMKL...done
+2022-05-09 13:43:55 - root - INFO      - merge_keyboard_mouse.py : 421 line - AverageMKL 180s score:0.6356877323420075
+2022-05-09 13:43:56 - root - INFO      - merge_keyboard_mouse.py : 437 line - mouse:linear_kernel keyboard:polynomial_kernel
+2022-05-09 13:43:56 - root - INFO      - merge_keyboard_mouse.py : 438 line - Accuracy score:0.6356877323420075
+2022-05-09 13:43:56 - root - INFO      - merge_keyboard_mouse.py : 439 line - roc AUC score:0.8921909507511042
+2022-05-09 13:43:56 - root - INFO      - merge_keyboard_mouse.py : 449 line - computing mouse:polynomial_kernel keyboard:polynomial_kernel...
+2022-05-09 13:43:56 - root - INFO      - merge_keyboard_mouse.py : 464 line - training AverageMKL...
+2022-05-09 13:43:57 - root - INFO      - merge_keyboard_mouse.py : 468 line - training AverageMKL...done
+2022-05-09 13:43:57 - root - INFO      - merge_keyboard_mouse.py : 471 line - AverageMKL 180s score:0.5204460966542751
+2022-05-09 13:43:57 - root - INFO      - merge_keyboard_mouse.py : 487 line - mouse:polynomial_kernel keyboard:rbf_kernel
+2022-05-09 13:43:57 - root - INFO      - merge_keyboard_mouse.py : 488 line - Accuracy score:0.5204460966542751
+2022-05-09 13:43:57 - root - INFO      - merge_keyboard_mouse.py : 489 line - roc AUC score:0.8378722717347669
+2022-05-09 13:43:57 - root - INFO      - merge_keyboard_mouse.py : 499 line - computing mouse:polynomial_kernel keyboard:polynomial_kernel...
+2022-05-09 13:43:57 - root - INFO      - merge_keyboard_mouse.py : 514 line - training AverageMKL...
+2022-05-09 13:43:58 - root - INFO      - merge_keyboard_mouse.py : 518 line - training AverageMKL...done
+2022-05-09 13:43:58 - root - INFO      - merge_keyboard_mouse.py : 521 line - AverageMKL 180s score:0.5204460966542751
+2022-05-09 13:43:58 - root - INFO      - merge_keyboard_mouse.py : 537 line - mouse:rbf_kernel keyboard:polynomial_kernel 
+2022-05-09 13:43:58 - root - INFO      - merge_keyboard_mouse.py : 538 line - Accuracy score:0.5204460966542751
+2022-05-09 13:43:58 - root - INFO      - merge_keyboard_mouse.py : 539 line - roc AUC score:0.8493983765394079
+2022-05-09 13:43:58 - root - DEBUG     - merge_keyboard_mouse.py : 27 line - -----------------210s----------------------
+2022-05-09 13:43:58 - root - DEBUG     - merge_keyboard_mouse.py : 28 line - ----------------- C=1 ,gamma=5 ----------------------
+2022-05-09 13:43:58 - root - INFO      - merge_keyboard_mouse.py : 32 line - preprocessing data...
+2022-05-09 13:44:05 - root - INFO      - merge_keyboard_mouse.py : 47 line - preprocessing data...done
+2022-05-09 13:44:20 - root - INFO      - merge_keyboard_mouse.py : 88 line - computing linear_kernel Kernels...
+2022-05-09 13:44:20 - root - INFO      - merge_keyboard_mouse.py : 109 line - training AverageMKL...
+2022-05-09 13:44:20 - root - INFO      - merge_keyboard_mouse.py : 115 line - training AverageMKL...done
+2022-05-09 13:44:20 - root - INFO      - merge_keyboard_mouse.py : 120 line - AverageMKL 210s score:0.5560165975103735
+2022-05-09 13:44:20 - root - INFO      - merge_keyboard_mouse.py : 143 line - mouse:linear_kernel keyboard:linear_kernel
+2022-05-09 13:44:20 - root - INFO      - merge_keyboard_mouse.py : 144 line - Accuracy score:0.5560165975103735
+2022-05-09 13:44:20 - root - INFO      - merge_keyboard_mouse.py : 145 line - roc AUC score:0.8555801345627497
+2022-05-09 13:44:20 - root - INFO      - merge_keyboard_mouse.py : 154 line - computing rbf_kernel Kernels...
+2022-05-09 13:44:21 - root - INFO      - merge_keyboard_mouse.py : 169 line - training AverageMKL...
+2022-05-09 13:44:21 - root - INFO      - merge_keyboard_mouse.py : 173 line - training AverageMKL...done
+2022-05-09 13:44:21 - root - INFO      - merge_keyboard_mouse.py : 189 line - mouse:rbf_kernel keyboard:rbf_kernel
+2022-05-09 13:44:21 - root - INFO      - merge_keyboard_mouse.py : 190 line - Accuracy score:0.5062240663900415
+2022-05-09 13:44:21 - root - INFO      - merge_keyboard_mouse.py : 191 line - roc AUC score:0.8508393575133333
+2022-05-09 13:44:21 - root - INFO      - merge_keyboard_mouse.py : 200 line - computing mouse:polynomial_kernel keyboard:polynomial_kernel...
+2022-05-09 13:44:22 - root - INFO      - merge_keyboard_mouse.py : 215 line - training AverageMKL...
+2022-05-09 13:44:22 - root - INFO      - merge_keyboard_mouse.py : 219 line - training AverageMKL...done
+2022-05-09 13:44:22 - root - INFO      - merge_keyboard_mouse.py : 222 line - AverageMKL 210s score:0.46887966804979253
+2022-05-09 13:44:22 - root - INFO      - merge_keyboard_mouse.py : 238 line - mouse:polynomial_kernel keyboard:polynomial_kernel
+2022-05-09 13:44:22 - root - INFO      - merge_keyboard_mouse.py : 239 line - Accuracy score:0.46887966804979253
+2022-05-09 13:44:22 - root - INFO      - merge_keyboard_mouse.py : 240 line - roc AUC score:0.8118339389843753
+2022-05-09 13:44:22 - root - INFO      - merge_keyboard_mouse.py : 250 line - computing rbf_kernel Kernels...
+2022-05-09 13:44:23 - root - INFO      - merge_keyboard_mouse.py : 265 line - training AverageMKL...
+2022-05-09 13:44:23 - root - INFO      - merge_keyboard_mouse.py : 269 line - training AverageMKL...done
+2022-05-09 13:44:23 - root - INFO      - merge_keyboard_mouse.py : 272 line - AverageMKL 210s score:0.4107883817427386
+2022-05-09 13:44:23 - root - INFO      - merge_keyboard_mouse.py : 288 line - mouse:linear_kernel keyboard:rbf_kernel
+2022-05-09 13:44:23 - root - INFO      - merge_keyboard_mouse.py : 289 line - Accuracy score:0.4107883817427386
+2022-05-09 13:44:23 - root - INFO      - merge_keyboard_mouse.py : 290 line - roc AUC score:0.744312025065087
+2022-05-09 13:44:23 - root - INFO      - merge_keyboard_mouse.py : 299 line - computing mouse:rbf_kernel keyboard:linear_kernel...
+2022-05-09 13:44:24 - root - INFO      - merge_keyboard_mouse.py : 314 line - training AverageMKL...
+2022-05-09 13:44:24 - root - INFO      - merge_keyboard_mouse.py : 318 line - training AverageMKL...done
+2022-05-09 13:44:24 - root - INFO      - merge_keyboard_mouse.py : 321 line - AverageMKL 210s score:0.6307053941908713
+2022-05-09 13:44:24 - root - INFO      - merge_keyboard_mouse.py : 337 line - mouse:rbf_kernel keyboard:linear_kernel
+2022-05-09 13:44:24 - root - INFO      - merge_keyboard_mouse.py : 338 line - Accuracy score:0.6307053941908713
+2022-05-09 13:44:24 - root - INFO      - merge_keyboard_mouse.py : 339 line - roc AUC score:0.892653232964318
+2022-05-09 13:44:24 - root - INFO      - merge_keyboard_mouse.py : 349 line - computing mouse:polynomial_kernel keyboard:polynomial_kernel...
+2022-05-09 13:44:24 - root - INFO      - merge_keyboard_mouse.py : 364 line - training AverageMKL...
+2022-05-09 13:44:25 - root - INFO      - merge_keyboard_mouse.py : 368 line - training AverageMKL...done
+2022-05-09 13:44:25 - root - INFO      - merge_keyboard_mouse.py : 371 line - AverageMKL 210s score:0.43568464730290457
+2022-05-09 13:44:25 - root - INFO      - merge_keyboard_mouse.py : 387 line - mouse:polynomial_kernel keyboard:linear_kernel
+2022-05-09 13:44:25 - root - INFO      - merge_keyboard_mouse.py : 388 line - Accuracy score:0.43568464730290457
+2022-05-09 13:44:25 - root - INFO      - merge_keyboard_mouse.py : 389 line - roc AUC score:0.8007132391527103
+2022-05-09 13:44:25 - root - INFO      - merge_keyboard_mouse.py : 399 line - computing mouse:polynomial_kernel keyboard:polynomial_kernel...
+2022-05-09 13:44:25 - root - INFO      - merge_keyboard_mouse.py : 414 line - training AverageMKL...
+2022-05-09 13:44:25 - root - INFO      - merge_keyboard_mouse.py : 418 line - training AverageMKL...done
+2022-05-09 13:44:26 - root - INFO      - merge_keyboard_mouse.py : 421 line - AverageMKL 210s score:0.5892116182572614
+2022-05-09 13:44:26 - root - INFO      - merge_keyboard_mouse.py : 437 line - mouse:linear_kernel keyboard:polynomial_kernel
+2022-05-09 13:44:26 - root - INFO      - merge_keyboard_mouse.py : 438 line - Accuracy score:0.5892116182572614
+2022-05-09 13:44:26 - root - INFO      - merge_keyboard_mouse.py : 439 line - roc AUC score:0.8764923317668325
+2022-05-09 13:44:26 - root - INFO      - merge_keyboard_mouse.py : 449 line - computing mouse:polynomial_kernel keyboard:polynomial_kernel...
+2022-05-09 13:44:26 - root - INFO      - merge_keyboard_mouse.py : 464 line - training AverageMKL...
+2022-05-09 13:44:27 - root - INFO      - merge_keyboard_mouse.py : 468 line - training AverageMKL...done
+2022-05-09 13:44:27 - root - INFO      - merge_keyboard_mouse.py : 471 line - AverageMKL 210s score:0.46473029045643155
+2022-05-09 13:44:27 - root - INFO      - merge_keyboard_mouse.py : 487 line - mouse:polynomial_kernel keyboard:rbf_kernel
+2022-05-09 13:44:27 - root - INFO      - merge_keyboard_mouse.py : 488 line - Accuracy score:0.46473029045643155
+2022-05-09 13:44:27 - root - INFO      - merge_keyboard_mouse.py : 489 line - roc AUC score:0.8087947239607628
+2022-05-09 13:44:27 - root - INFO      - merge_keyboard_mouse.py : 499 line - computing mouse:polynomial_kernel keyboard:polynomial_kernel...
+2022-05-09 13:44:27 - root - INFO      - merge_keyboard_mouse.py : 514 line - training AverageMKL...
+2022-05-09 13:44:27 - root - INFO      - merge_keyboard_mouse.py : 518 line - training AverageMKL...done
+2022-05-09 13:44:28 - root - INFO      - merge_keyboard_mouse.py : 521 line - AverageMKL 210s score:0.5020746887966805
+2022-05-09 13:44:28 - root - INFO      - merge_keyboard_mouse.py : 537 line - mouse:rbf_kernel keyboard:polynomial_kernel 
+2022-05-09 13:44:28 - root - INFO      - merge_keyboard_mouse.py : 538 line - Accuracy score:0.5020746887966805
+2022-05-09 13:44:28 - root - INFO      - merge_keyboard_mouse.py : 539 line - roc AUC score:0.8160779380017098
+2022-05-09 13:44:28 - root - DEBUG     - merge_keyboard_mouse.py : 27 line - -----------------240s----------------------
+2022-05-09 13:44:28 - root - DEBUG     - merge_keyboard_mouse.py : 28 line - ----------------- C=1 ,gamma=5 ----------------------
+2022-05-09 13:44:28 - root - INFO      - merge_keyboard_mouse.py : 32 line - preprocessing data...
+2022-05-09 13:44:34 - root - INFO      - merge_keyboard_mouse.py : 47 line - preprocessing data...done
+2022-05-09 13:44:42 - root - INFO      - merge_keyboard_mouse.py : 88 line - computing linear_kernel Kernels...
+2022-05-09 13:44:43 - root - INFO      - merge_keyboard_mouse.py : 109 line - training AverageMKL...
+2022-05-09 13:44:43 - root - INFO      - merge_keyboard_mouse.py : 115 line - training AverageMKL...done
+2022-05-09 13:44:43 - root - INFO      - merge_keyboard_mouse.py : 120 line - AverageMKL 240s score:0.5756097560975609
+2022-05-09 13:44:43 - root - INFO      - merge_keyboard_mouse.py : 143 line - mouse:linear_kernel keyboard:linear_kernel
+2022-05-09 13:44:43 - root - INFO      - merge_keyboard_mouse.py : 144 line - Accuracy score:0.5756097560975609
+2022-05-09 13:44:43 - root - INFO      - merge_keyboard_mouse.py : 145 line - roc AUC score:0.8766820495148572
+2022-05-09 13:44:43 - root - INFO      - merge_keyboard_mouse.py : 154 line - computing rbf_kernel Kernels...
+2022-05-09 13:44:44 - root - INFO      - merge_keyboard_mouse.py : 169 line - training AverageMKL...
+2022-05-09 13:44:44 - root - INFO      - merge_keyboard_mouse.py : 173 line - training AverageMKL...done
+2022-05-09 13:44:44 - root - INFO      - merge_keyboard_mouse.py : 189 line - mouse:rbf_kernel keyboard:rbf_kernel
+2022-05-09 13:44:44 - root - INFO      - merge_keyboard_mouse.py : 190 line - Accuracy score:0.5365853658536586
+2022-05-09 13:44:44 - root - INFO      - merge_keyboard_mouse.py : 191 line - roc AUC score:0.8792117703616753
+2022-05-09 13:44:44 - root - INFO      - merge_keyboard_mouse.py : 200 line - computing mouse:polynomial_kernel keyboard:polynomial_kernel...
+2022-05-09 13:44:44 - root - INFO      - merge_keyboard_mouse.py : 215 line - training AverageMKL...
+2022-05-09 13:44:44 - root - INFO      - merge_keyboard_mouse.py : 219 line - training AverageMKL...done
+2022-05-09 13:44:44 - root - INFO      - merge_keyboard_mouse.py : 222 line - AverageMKL 240s score:0.4975609756097561
+2022-05-09 13:44:44 - root - INFO      - merge_keyboard_mouse.py : 238 line - mouse:polynomial_kernel keyboard:polynomial_kernel
+2022-05-09 13:44:44 - root - INFO      - merge_keyboard_mouse.py : 239 line - Accuracy score:0.4975609756097561
+2022-05-09 13:44:44 - root - INFO      - merge_keyboard_mouse.py : 240 line - roc AUC score:0.8517283640235027
+2022-05-09 13:44:44 - root - INFO      - merge_keyboard_mouse.py : 250 line - computing rbf_kernel Kernels...
+2022-05-09 13:44:45 - root - INFO      - merge_keyboard_mouse.py : 265 line - training AverageMKL...
+2022-05-09 13:44:45 - root - INFO      - merge_keyboard_mouse.py : 269 line - training AverageMKL...done
+2022-05-09 13:44:46 - root - INFO      - merge_keyboard_mouse.py : 272 line - AverageMKL 240s score:0.4195121951219512
+2022-05-09 13:44:46 - root - INFO      - merge_keyboard_mouse.py : 288 line - mouse:linear_kernel keyboard:rbf_kernel
+2022-05-09 13:44:46 - root - INFO      - merge_keyboard_mouse.py : 289 line - Accuracy score:0.4195121951219512
+2022-05-09 13:44:46 - root - INFO      - merge_keyboard_mouse.py : 290 line - roc AUC score:0.7783768643522615
+2022-05-09 13:44:46 - root - INFO      - merge_keyboard_mouse.py : 299 line - computing mouse:rbf_kernel keyboard:linear_kernel...
+2022-05-09 13:44:46 - root - INFO      - merge_keyboard_mouse.py : 314 line - training AverageMKL...
+2022-05-09 13:44:46 - root - INFO      - merge_keyboard_mouse.py : 318 line - training AverageMKL...done
+2022-05-09 13:44:46 - root - INFO      - merge_keyboard_mouse.py : 321 line - AverageMKL 240s score:0.6682926829268293
+2022-05-09 13:44:46 - root - INFO      - merge_keyboard_mouse.py : 337 line - mouse:rbf_kernel keyboard:linear_kernel
+2022-05-09 13:44:46 - root - INFO      - merge_keyboard_mouse.py : 338 line - Accuracy score:0.6682926829268293
+2022-05-09 13:44:46 - root - INFO      - merge_keyboard_mouse.py : 339 line - roc AUC score:0.9161918566503227
+2022-05-09 13:44:46 - root - INFO      - merge_keyboard_mouse.py : 349 line - computing mouse:polynomial_kernel keyboard:polynomial_kernel...
+2022-05-09 13:44:47 - root - INFO      - merge_keyboard_mouse.py : 364 line - training AverageMKL...
+2022-05-09 13:44:47 - root - INFO      - merge_keyboard_mouse.py : 368 line - training AverageMKL...done
+2022-05-09 13:44:47 - root - INFO      - merge_keyboard_mouse.py : 371 line - AverageMKL 240s score:0.47804878048780486
+2022-05-09 13:44:47 - root - INFO      - merge_keyboard_mouse.py : 387 line - mouse:polynomial_kernel keyboard:linear_kernel
+2022-05-09 13:44:47 - root - INFO      - merge_keyboard_mouse.py : 388 line - Accuracy score:0.47804878048780486
+2022-05-09 13:44:47 - root - INFO      - merge_keyboard_mouse.py : 389 line - roc AUC score:0.8281985709702102
+2022-05-09 13:44:47 - root - INFO      - merge_keyboard_mouse.py : 399 line - computing mouse:polynomial_kernel keyboard:polynomial_kernel...
+2022-05-09 13:44:47 - root - INFO      - merge_keyboard_mouse.py : 414 line - training AverageMKL...
+2022-05-09 13:44:48 - root - INFO      - merge_keyboard_mouse.py : 418 line - training AverageMKL...done
+2022-05-09 13:44:48 - root - INFO      - merge_keyboard_mouse.py : 421 line - AverageMKL 240s score:0.6487804878048781
+2022-05-09 13:44:48 - root - INFO      - merge_keyboard_mouse.py : 437 line - mouse:linear_kernel keyboard:polynomial_kernel
+2022-05-09 13:44:48 - root - INFO      - merge_keyboard_mouse.py : 438 line - Accuracy score:0.6487804878048781
+2022-05-09 13:44:48 - root - INFO      - merge_keyboard_mouse.py : 439 line - roc AUC score:0.8935253725834889
+2022-05-09 13:44:48 - root - INFO      - merge_keyboard_mouse.py : 449 line - computing mouse:polynomial_kernel keyboard:polynomial_kernel...
+2022-05-09 13:44:48 - root - INFO      - merge_keyboard_mouse.py : 464 line - training AverageMKL...
+2022-05-09 13:44:48 - root - INFO      - merge_keyboard_mouse.py : 468 line - training AverageMKL...done
+2022-05-09 13:44:48 - root - INFO      - merge_keyboard_mouse.py : 471 line - AverageMKL 240s score:0.5073170731707317
+2022-05-09 13:44:48 - root - INFO      - merge_keyboard_mouse.py : 487 line - mouse:polynomial_kernel keyboard:rbf_kernel
+2022-05-09 13:44:48 - root - INFO      - merge_keyboard_mouse.py : 488 line - Accuracy score:0.5073170731707317
+2022-05-09 13:44:48 - root - INFO      - merge_keyboard_mouse.py : 489 line - roc AUC score:0.837628874687152
+2022-05-09 13:44:48 - root - INFO      - merge_keyboard_mouse.py : 499 line - computing mouse:polynomial_kernel keyboard:polynomial_kernel...
+2022-05-09 13:44:49 - root - INFO      - merge_keyboard_mouse.py : 514 line - training AverageMKL...
+2022-05-09 13:44:49 - root - INFO      - merge_keyboard_mouse.py : 518 line - training AverageMKL...done
+2022-05-09 13:44:49 - root - INFO      - merge_keyboard_mouse.py : 521 line - AverageMKL 240s score:0.4878048780487805
+2022-05-09 13:44:49 - root - INFO      - merge_keyboard_mouse.py : 537 line - mouse:rbf_kernel keyboard:polynomial_kernel 
+2022-05-09 13:44:49 - root - INFO      - merge_keyboard_mouse.py : 538 line - Accuracy score:0.4878048780487805
+2022-05-09 13:44:49 - root - INFO      - merge_keyboard_mouse.py : 539 line - roc AUC score:0.8552572938954406
+2022-05-09 13:44:49 - root - DEBUG     - merge_keyboard_mouse.py : 27 line - -----------------270s----------------------
+2022-05-09 13:44:49 - root - DEBUG     - merge_keyboard_mouse.py : 28 line - ----------------- C=1 ,gamma=5 ----------------------
+2022-05-09 13:44:49 - root - INFO      - merge_keyboard_mouse.py : 32 line - preprocessing data...
+2022-05-09 13:44:55 - root - INFO      - merge_keyboard_mouse.py : 47 line - preprocessing data...done
+2022-05-09 13:45:00 - root - INFO      - merge_keyboard_mouse.py : 88 line - computing linear_kernel Kernels...
+2022-05-09 13:45:00 - root - INFO      - merge_keyboard_mouse.py : 109 line - training AverageMKL...
+2022-05-09 13:45:00 - root - INFO      - merge_keyboard_mouse.py : 115 line - training AverageMKL...done
+2022-05-09 13:45:00 - root - INFO      - merge_keyboard_mouse.py : 120 line - AverageMKL 270s score:0.6910994764397905
+2022-05-09 13:45:00 - root - INFO      - merge_keyboard_mouse.py : 143 line - mouse:linear_kernel keyboard:linear_kernel
+2022-05-09 13:45:00 - root - INFO      - merge_keyboard_mouse.py : 144 line - Accuracy score:0.6910994764397905
+2022-05-09 13:45:00 - root - INFO      - merge_keyboard_mouse.py : 145 line - roc AUC score:0.9009167218621522
+2022-05-09 13:45:00 - root - INFO      - merge_keyboard_mouse.py : 154 line - computing rbf_kernel Kernels...
+2022-05-09 13:45:01 - root - INFO      - merge_keyboard_mouse.py : 169 line - training AverageMKL...
+2022-05-09 13:45:01 - root - INFO      - merge_keyboard_mouse.py : 173 line - training AverageMKL...done
+2022-05-09 13:45:01 - root - INFO      - merge_keyboard_mouse.py : 189 line - mouse:rbf_kernel keyboard:rbf_kernel
+2022-05-09 13:45:01 - root - INFO      - merge_keyboard_mouse.py : 190 line - Accuracy score:0.6020942408376964
+2022-05-09 13:45:01 - root - INFO      - merge_keyboard_mouse.py : 191 line - roc AUC score:0.8832636418200754
+2022-05-09 13:45:01 - root - INFO      - merge_keyboard_mouse.py : 200 line - computing mouse:polynomial_kernel keyboard:polynomial_kernel...
+2022-05-09 13:45:01 - root - INFO      - merge_keyboard_mouse.py : 215 line - training AverageMKL...
+2022-05-09 13:45:01 - root - INFO      - merge_keyboard_mouse.py : 219 line - training AverageMKL...done
+2022-05-09 13:45:01 - root - INFO      - merge_keyboard_mouse.py : 222 line - AverageMKL 270s score:0.5445026178010471
+2022-05-09 13:45:01 - root - INFO      - merge_keyboard_mouse.py : 238 line - mouse:polynomial_kernel keyboard:polynomial_kernel
+2022-05-09 13:45:01 - root - INFO      - merge_keyboard_mouse.py : 239 line - Accuracy score:0.5445026178010471
+2022-05-09 13:45:01 - root - INFO      - merge_keyboard_mouse.py : 240 line - roc AUC score:0.8646922946413829
+2022-05-09 13:45:01 - root - INFO      - merge_keyboard_mouse.py : 250 line - computing rbf_kernel Kernels...
+2022-05-09 13:45:02 - root - INFO      - merge_keyboard_mouse.py : 265 line - training AverageMKL...
+2022-05-09 13:45:02 - root - INFO      - merge_keyboard_mouse.py : 269 line - training AverageMKL...done
+2022-05-09 13:45:02 - root - INFO      - merge_keyboard_mouse.py : 272 line - AverageMKL 270s score:0.49214659685863876
+2022-05-09 13:45:02 - root - INFO      - merge_keyboard_mouse.py : 288 line - mouse:linear_kernel keyboard:rbf_kernel
+2022-05-09 13:45:02 - root - INFO      - merge_keyboard_mouse.py : 289 line - Accuracy score:0.49214659685863876
+2022-05-09 13:45:02 - root - INFO      - merge_keyboard_mouse.py : 290 line - roc AUC score:0.8016807203479603
+2022-05-09 13:45:02 - root - INFO      - merge_keyboard_mouse.py : 299 line - computing mouse:rbf_kernel keyboard:linear_kernel...
+2022-05-09 13:45:02 - root - INFO      - merge_keyboard_mouse.py : 314 line - training AverageMKL...
+2022-05-09 13:45:02 - root - INFO      - merge_keyboard_mouse.py : 318 line - training AverageMKL...done
+2022-05-09 13:45:03 - root - INFO      - merge_keyboard_mouse.py : 321 line - AverageMKL 270s score:0.7120418848167539
+2022-05-09 13:45:03 - root - INFO      - merge_keyboard_mouse.py : 337 line - mouse:rbf_kernel keyboard:linear_kernel
+2022-05-09 13:45:03 - root - INFO      - merge_keyboard_mouse.py : 338 line - Accuracy score:0.7120418848167539
+2022-05-09 13:45:03 - root - INFO      - merge_keyboard_mouse.py : 339 line - roc AUC score:0.9312583137210865
+2022-05-09 13:45:03 - root - INFO      - merge_keyboard_mouse.py : 349 line - computing mouse:polynomial_kernel keyboard:polynomial_kernel...
+2022-05-09 13:45:03 - root - INFO      - merge_keyboard_mouse.py : 364 line - training AverageMKL...
+2022-05-09 13:45:03 - root - INFO      - merge_keyboard_mouse.py : 368 line - training AverageMKL...done
+2022-05-09 13:45:03 - root - INFO      - merge_keyboard_mouse.py : 371 line - AverageMKL 270s score:0.5130890052356021
+2022-05-09 13:45:03 - root - INFO      - merge_keyboard_mouse.py : 387 line - mouse:polynomial_kernel keyboard:linear_kernel
+2022-05-09 13:45:03 - root - INFO      - merge_keyboard_mouse.py : 388 line - Accuracy score:0.5130890052356021
+2022-05-09 13:45:03 - root - INFO      - merge_keyboard_mouse.py : 389 line - roc AUC score:0.8301640394375778
+2022-05-09 13:45:03 - root - INFO      - merge_keyboard_mouse.py : 399 line - computing mouse:polynomial_kernel keyboard:polynomial_kernel...
+2022-05-09 13:45:03 - root - INFO      - merge_keyboard_mouse.py : 414 line - training AverageMKL...
+2022-05-09 13:45:04 - root - INFO      - merge_keyboard_mouse.py : 418 line - training AverageMKL...done
+2022-05-09 13:45:04 - root - INFO      - merge_keyboard_mouse.py : 421 line - AverageMKL 270s score:0.7068062827225131
+2022-05-09 13:45:04 - root - INFO      - merge_keyboard_mouse.py : 437 line - mouse:linear_kernel keyboard:polynomial_kernel
+2022-05-09 13:45:04 - root - INFO      - merge_keyboard_mouse.py : 438 line - Accuracy score:0.7068062827225131
+2022-05-09 13:45:04 - root - INFO      - merge_keyboard_mouse.py : 439 line - roc AUC score:0.9303219976544866
+2022-05-09 13:45:04 - root - INFO      - merge_keyboard_mouse.py : 449 line - computing mouse:polynomial_kernel keyboard:polynomial_kernel...
+2022-05-09 13:45:04 - root - INFO      - merge_keyboard_mouse.py : 464 line - training AverageMKL...
+2022-05-09 13:45:04 - root - INFO      - merge_keyboard_mouse.py : 468 line - training AverageMKL...done
+2022-05-09 13:45:04 - root - INFO      - merge_keyboard_mouse.py : 471 line - AverageMKL 270s score:0.5706806282722513
+2022-05-09 13:45:04 - root - INFO      - merge_keyboard_mouse.py : 487 line - mouse:polynomial_kernel keyboard:rbf_kernel
+2022-05-09 13:45:04 - root - INFO      - merge_keyboard_mouse.py : 488 line - Accuracy score:0.5706806282722513
+2022-05-09 13:45:04 - root - INFO      - merge_keyboard_mouse.py : 489 line - roc AUC score:0.8554402106142129
+2022-05-09 13:45:04 - root - INFO      - merge_keyboard_mouse.py : 499 line - computing mouse:polynomial_kernel keyboard:polynomial_kernel...
+2022-05-09 13:45:05 - root - INFO      - merge_keyboard_mouse.py : 514 line - training AverageMKL...
+2022-05-09 13:45:05 - root - INFO      - merge_keyboard_mouse.py : 518 line - training AverageMKL...done
+2022-05-09 13:45:05 - root - INFO      - merge_keyboard_mouse.py : 521 line - AverageMKL 270s score:0.518324607329843
+2022-05-09 13:45:05 - root - INFO      - merge_keyboard_mouse.py : 537 line - mouse:rbf_kernel keyboard:polynomial_kernel 
+2022-05-09 13:45:05 - root - INFO      - merge_keyboard_mouse.py : 538 line - Accuracy score:0.518324607329843
+2022-05-09 13:45:05 - root - INFO      - merge_keyboard_mouse.py : 539 line - roc AUC score:0.8492519070244198
+2022-05-09 13:45:05 - root - DEBUG     - merge_keyboard_mouse.py : 27 line - -----------------300s----------------------
+2022-05-09 13:45:05 - root - DEBUG     - merge_keyboard_mouse.py : 28 line - ----------------- C=1 ,gamma=5 ----------------------
+2022-05-09 13:45:05 - root - INFO      - merge_keyboard_mouse.py : 32 line - preprocessing data...
+2022-05-09 13:45:10 - root - INFO      - merge_keyboard_mouse.py : 47 line - preprocessing data...done
+2022-05-09 13:45:15 - root - INFO      - merge_keyboard_mouse.py : 88 line - computing linear_kernel Kernels...
+2022-05-09 13:45:16 - root - INFO      - merge_keyboard_mouse.py : 109 line - training AverageMKL...
+2022-05-09 13:45:16 - root - INFO      - merge_keyboard_mouse.py : 115 line - training AverageMKL...done
+2022-05-09 13:45:16 - root - INFO      - merge_keyboard_mouse.py : 120 line - AverageMKL 300s score:0.6586826347305389
+2022-05-09 13:45:16 - root - INFO      - merge_keyboard_mouse.py : 143 line - mouse:linear_kernel keyboard:linear_kernel
+2022-05-09 13:45:16 - root - INFO      - merge_keyboard_mouse.py : 144 line - Accuracy score:0.6586826347305389
+2022-05-09 13:45:16 - root - INFO      - merge_keyboard_mouse.py : 145 line - roc AUC score:0.8746018535917072
+2022-05-09 13:45:16 - root - INFO      - merge_keyboard_mouse.py : 154 line - computing rbf_kernel Kernels...
+2022-05-09 13:45:16 - root - INFO      - merge_keyboard_mouse.py : 169 line - training AverageMKL...
+2022-05-09 13:45:17 - root - INFO      - merge_keyboard_mouse.py : 173 line - training AverageMKL...done
+2022-05-09 13:45:17 - root - INFO      - merge_keyboard_mouse.py : 189 line - mouse:rbf_kernel keyboard:rbf_kernel
+2022-05-09 13:45:17 - root - INFO      - merge_keyboard_mouse.py : 190 line - Accuracy score:0.5449101796407185
+2022-05-09 13:45:17 - root - INFO      - merge_keyboard_mouse.py : 191 line - roc AUC score:0.8713357076656181
+2022-05-09 13:45:17 - root - INFO      - merge_keyboard_mouse.py : 200 line - computing mouse:polynomial_kernel keyboard:polynomial_kernel...
+2022-05-09 13:45:17 - root - INFO      - merge_keyboard_mouse.py : 215 line - training AverageMKL...
+2022-05-09 13:45:17 - root - INFO      - merge_keyboard_mouse.py : 219 line - training AverageMKL...done
+2022-05-09 13:45:17 - root - INFO      - merge_keyboard_mouse.py : 222 line - AverageMKL 300s score:0.5389221556886228
+2022-05-09 13:45:17 - root - INFO      - merge_keyboard_mouse.py : 238 line - mouse:polynomial_kernel keyboard:polynomial_kernel
+2022-05-09 13:45:17 - root - INFO      - merge_keyboard_mouse.py : 239 line - Accuracy score:0.5389221556886228
+2022-05-09 13:45:17 - root - INFO      - merge_keyboard_mouse.py : 240 line - roc AUC score:0.8659264841540504
+2022-05-09 13:45:17 - root - INFO      - merge_keyboard_mouse.py : 250 line - computing rbf_kernel Kernels...
+2022-05-09 13:45:18 - root - INFO      - merge_keyboard_mouse.py : 265 line - training AverageMKL...
+2022-05-09 13:45:18 - root - INFO      - merge_keyboard_mouse.py : 269 line - training AverageMKL...done
+2022-05-09 13:45:18 - root - INFO      - merge_keyboard_mouse.py : 272 line - AverageMKL 300s score:0.47904191616766467
+2022-05-09 13:45:18 - root - INFO      - merge_keyboard_mouse.py : 288 line - mouse:linear_kernel keyboard:rbf_kernel
+2022-05-09 13:45:18 - root - INFO      - merge_keyboard_mouse.py : 289 line - Accuracy score:0.47904191616766467
+2022-05-09 13:45:18 - root - INFO      - merge_keyboard_mouse.py : 290 line - roc AUC score:0.790877691261392
+2022-05-09 13:45:18 - root - INFO      - merge_keyboard_mouse.py : 299 line - computing mouse:rbf_kernel keyboard:linear_kernel...
+2022-05-09 13:45:18 - root - INFO      - merge_keyboard_mouse.py : 314 line - training AverageMKL...
+2022-05-09 13:45:19 - root - INFO      - merge_keyboard_mouse.py : 318 line - training AverageMKL...done
+2022-05-09 13:45:19 - root - INFO      - merge_keyboard_mouse.py : 321 line - AverageMKL 300s score:0.6946107784431138
+2022-05-09 13:45:19 - root - INFO      - merge_keyboard_mouse.py : 337 line - mouse:rbf_kernel keyboard:linear_kernel
+2022-05-09 13:45:19 - root - INFO      - merge_keyboard_mouse.py : 338 line - Accuracy score:0.6946107784431138
+2022-05-09 13:45:19 - root - INFO      - merge_keyboard_mouse.py : 339 line - roc AUC score:0.8935549175268426
+2022-05-09 13:45:19 - root - INFO      - merge_keyboard_mouse.py : 349 line - computing mouse:polynomial_kernel keyboard:polynomial_kernel...
+2022-05-09 13:45:19 - root - INFO      - merge_keyboard_mouse.py : 364 line - training AverageMKL...
+2022-05-09 13:45:19 - root - INFO      - merge_keyboard_mouse.py : 368 line - training AverageMKL...done
+2022-05-09 13:45:19 - root - INFO      - merge_keyboard_mouse.py : 371 line - AverageMKL 300s score:0.5269461077844312
+2022-05-09 13:45:19 - root - INFO      - merge_keyboard_mouse.py : 387 line - mouse:polynomial_kernel keyboard:linear_kernel
+2022-05-09 13:45:19 - root - INFO      - merge_keyboard_mouse.py : 388 line - Accuracy score:0.5269461077844312
+2022-05-09 13:45:19 - root - INFO      - merge_keyboard_mouse.py : 389 line - roc AUC score:0.8460667029546214
+2022-05-09 13:45:19 - root - INFO      - merge_keyboard_mouse.py : 399 line - computing mouse:polynomial_kernel keyboard:polynomial_kernel...
+2022-05-09 13:45:19 - root - INFO      - merge_keyboard_mouse.py : 414 line - training AverageMKL...
+2022-05-09 13:45:19 - root - INFO      - merge_keyboard_mouse.py : 418 line - training AverageMKL...done
+2022-05-09 13:45:19 - root - INFO      - merge_keyboard_mouse.py : 421 line - AverageMKL 300s score:0.6467065868263473
+2022-05-09 13:45:19 - root - INFO      - merge_keyboard_mouse.py : 437 line - mouse:linear_kernel keyboard:polynomial_kernel
+2022-05-09 13:45:19 - root - INFO      - merge_keyboard_mouse.py : 438 line - Accuracy score:0.6467065868263473
+2022-05-09 13:45:19 - root - INFO      - merge_keyboard_mouse.py : 439 line - roc AUC score:0.876111304921881
+2022-05-09 13:45:19 - root - INFO      - merge_keyboard_mouse.py : 449 line - computing mouse:polynomial_kernel keyboard:polynomial_kernel...
+2022-05-09 13:45:20 - root - INFO      - merge_keyboard_mouse.py : 464 line - training AverageMKL...
+2022-05-09 13:45:20 - root - INFO      - merge_keyboard_mouse.py : 468 line - training AverageMKL...done
+2022-05-09 13:45:20 - root - INFO      - merge_keyboard_mouse.py : 471 line - AverageMKL 300s score:0.5389221556886228
+2022-05-09 13:45:20 - root - INFO      - merge_keyboard_mouse.py : 487 line - mouse:polynomial_kernel keyboard:rbf_kernel
+2022-05-09 13:45:20 - root - INFO      - merge_keyboard_mouse.py : 488 line - Accuracy score:0.5389221556886228
+2022-05-09 13:45:20 - root - INFO      - merge_keyboard_mouse.py : 489 line - roc AUC score:0.8456360593985123
+2022-05-09 13:45:20 - root - INFO      - merge_keyboard_mouse.py : 499 line - computing mouse:polynomial_kernel keyboard:polynomial_kernel...
+2022-05-09 13:45:20 - root - INFO      - merge_keyboard_mouse.py : 514 line - training AverageMKL...
+2022-05-09 13:45:20 - root - INFO      - merge_keyboard_mouse.py : 518 line - training AverageMKL...done
+2022-05-09 13:45:20 - root - INFO      - merge_keyboard_mouse.py : 521 line - AverageMKL 300s score:0.5808383233532934
+2022-05-09 13:45:20 - root - INFO      - merge_keyboard_mouse.py : 537 line - mouse:rbf_kernel keyboard:polynomial_kernel 
+2022-05-09 13:45:20 - root - INFO      - merge_keyboard_mouse.py : 538 line - Accuracy score:0.5808383233532934
+2022-05-09 13:45:20 - root - INFO      - merge_keyboard_mouse.py : 539 line - roc AUC score:0.865506658332014
+2022-05-09 14:06:28 - root - DEBUG     - merge_keyboard_mouse.py : 27 line - -----------------30s----------------------
+2022-05-09 14:06:28 - root - DEBUG     - merge_keyboard_mouse.py : 28 line - ----------------- C=1 ,gamma=5 ----------------------
+2022-05-09 14:06:28 - root - INFO      - merge_keyboard_mouse.py : 32 line - preprocessing data...
+2022-05-09 14:25:11 - root - INFO      - merge_keyboard_mouse.py : 88 line - computing linear_kernel Kernels...
+2022-05-09 14:25:22 - root - INFO      - merge_keyboard_mouse.py : 109 line - training AverageMKL...
+2022-05-09 14:25:31 - root - INFO      - merge_keyboard_mouse.py : 115 line - training AverageMKL...done
+2022-05-09 14:25:32 - root - INFO      - merge_keyboard_mouse.py : 120 line - AverageMKL 30s score:0.4699248120300752
+2022-05-09 14:25:35 - root - INFO      - merge_keyboard_mouse.py : 143 line - mouse:linear_kernel keyboard:linear_kernel
+2022-05-09 14:25:35 - root - INFO      - merge_keyboard_mouse.py : 144 line - Accuracy score:0.4699248120300752
+2022-05-09 14:25:35 - root - INFO      - merge_keyboard_mouse.py : 145 line - roc AUC score:0.8042415016410877
+2022-05-09 14:25:35 - root - INFO      - merge_keyboard_mouse.py : 154 line - computing rbf_kernel Kernels...
+2022-05-09 14:25:49 - root - INFO      - merge_keyboard_mouse.py : 169 line - training AverageMKL...
