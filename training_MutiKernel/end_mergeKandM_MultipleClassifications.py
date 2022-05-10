@@ -2,7 +2,7 @@
 # -*- coding:utf-8 -*-
 # @Time  : 8/5/2022 下午 3:08
 # @Author: xiaoni
-# @File  : merge_keyboard_mouse.py
+# @File  : end_mergeKandM_MultipleClassifications.py
 
 import numpy as np
 import os
@@ -14,7 +14,7 @@ import copy
 
 if __name__ == "__main__":
     logging.basicConfig(level=logging.DEBUG  # 设置日志输出格式
-                        , filename="end.log"  # log日志输出的文件位置和文件名
+                        , filename="MultipleClassifications.log"  # log日志输出的文件位置和文件名
                         #, filemode="w"  # 文件的写入格式，w为重新写入文件，默认是追加
                         ,
                         format="%(asctime)s - %(name)s - %(levelname)-9s - %(filename)-8s : %(lineno)s line - %(message)s"
@@ -22,7 +22,7 @@ if __name__ == "__main__":
                         , datefmt="%Y-%m-%d %H:%M:%S"  # 时间输出的格式
                         )
     pwdpath = os.getcwd()
-    for t in range(1, 2):
+    for t in range(10, 11):
 
         logging.debug("-----------------" + str(t * 30) + "s----------------------")
         logging.debug("----------------- C=1 ,gamma=5 ----------------------")
@@ -67,11 +67,8 @@ if __name__ == "__main__":
 
         # Xsc = MinMaxScaler()
         # X = Xsc.fit_transform(X)
-
         data = rescale_01(data)
-
         # X = normalization(X)  # ||X_i||_2^2 = 1
-
         # train/test split
         from sklearn.model_selection import train_test_split
 
@@ -103,8 +100,8 @@ if __name__ == "__main__":
         print('done')
 
         # MKL algorithms
-        from MKLpy.algorithms import AverageMKL, EasyMKL, \
-            KOMD  # KOMD is not a MKL algorithm but a simple kernel machine like the SVM
+        from MKLpy.algorithms import AverageMKL, EasyMKL, KOMD
+        # KOMD is not a MKL algorithm but a simple kernel machine like the SVM
 
         logging.info('training AverageMKL...')
 
@@ -134,7 +131,6 @@ if __name__ == "__main__":
             y_score_sum.append(y_score[kk])
 
         y_score_sum = np.array(list(y_score_sum))
-
         y_score_sum = y_score_sum.transpose()
 
         # sum1=y_score.sum(axis=1)
@@ -391,8 +387,8 @@ if __name__ == "__main__":
             accuracy, roc_auc))
 
         '''
-                        mouse:polynomial_kernel keyboard:linear_kernel
-                '''
+            mouse:polynomial_kernel keyboard:linear_kernel
+        '''
         Yte = Yte_backup
         Ytr = Ytr_backup
 
