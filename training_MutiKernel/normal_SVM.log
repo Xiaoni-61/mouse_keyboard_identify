@@ -1,0 +1,41 @@
+2022-05-25 22:53:51 - root - DEBUG     - end_normal.py : 43 line - -----------------60s----------------------
+2022-05-25 22:53:51 - root - DEBUG     - end_normal.py : 44 line - ----------------- C=1 ,gamma=5 ----------------------
+2022-05-25 22:53:51 - root - INFO      - end_normal.py : 48 line - preprocessing data...
+2022-05-25 22:54:16 - root - INFO      - end_normal.py : 63 line - preprocessing data...done
+2022-05-25 23:01:58 - root - INFO      - end_normal.py : 128 line - 60 mean accuracy:0.6531225030456982
+2022-05-25 23:01:58 - root - DEBUG     - end_normal.py : 43 line - -----------------90s----------------------
+2022-05-25 23:01:58 - root - DEBUG     - end_normal.py : 44 line - ----------------- C=1 ,gamma=5 ----------------------
+2022-05-25 23:01:58 - root - INFO      - end_normal.py : 48 line - preprocessing data...
+2022-05-25 23:02:15 - root - INFO      - end_normal.py : 63 line - preprocessing data...done
+2022-05-25 23:05:11 - root - INFO      - end_normal.py : 128 line - 90 mean accuracy:0.678542735877498
+2022-05-25 23:05:11 - root - DEBUG     - end_normal.py : 43 line - -----------------120s----------------------
+2022-05-25 23:05:11 - root - DEBUG     - end_normal.py : 44 line - ----------------- C=1 ,gamma=5 ----------------------
+2022-05-25 23:05:11 - root - INFO      - end_normal.py : 48 line - preprocessing data...
+2022-05-25 23:05:15 - root - DEBUG     - end_normal.py : 43 line - -----------------150s----------------------
+2022-05-25 23:05:15 - root - DEBUG     - end_normal.py : 44 line - ----------------- C=1 ,gamma=5 ----------------------
+2022-05-25 23:05:15 - root - INFO      - end_normal.py : 48 line - preprocessing data...
+2022-05-25 23:05:25 - root - INFO      - end_normal.py : 63 line - preprocessing data...done
+2022-05-25 23:06:22 - root - INFO      - end_normal.py : 128 line - 150 mean accuracy:0.7081098776371443
+2022-05-25 23:06:22 - root - DEBUG     - end_normal.py : 43 line - -----------------180s----------------------
+2022-05-25 23:06:22 - root - DEBUG     - end_normal.py : 44 line - ----------------- C=1 ,gamma=5 ----------------------
+2022-05-25 23:06:22 - root - INFO      - end_normal.py : 48 line - preprocessing data...
+2022-05-25 23:06:28 - root - DEBUG     - end_normal.py : 43 line - -----------------210s----------------------
+2022-05-25 23:06:28 - root - DEBUG     - end_normal.py : 44 line - ----------------- C=1 ,gamma=5 ----------------------
+2022-05-25 23:06:28 - root - INFO      - end_normal.py : 48 line - preprocessing data...
+2022-05-25 23:06:35 - root - INFO      - end_normal.py : 63 line - preprocessing data...done
+2022-05-25 23:07:06 - root - INFO      - end_normal.py : 128 line - 210 mean accuracy:0.7136628163432087
+2022-05-25 23:07:06 - root - DEBUG     - end_normal.py : 43 line - -----------------240s----------------------
+2022-05-25 23:07:06 - root - DEBUG     - end_normal.py : 44 line - ----------------- C=1 ,gamma=5 ----------------------
+2022-05-25 23:07:06 - root - INFO      - end_normal.py : 48 line - preprocessing data...
+2022-05-25 23:07:12 - root - INFO      - end_normal.py : 63 line - preprocessing data...done
+2022-05-25 23:07:32 - root - INFO      - end_normal.py : 128 line - 240 mean accuracy:0.6969577406113141
+2022-05-25 23:07:32 - root - DEBUG     - end_normal.py : 43 line - -----------------270s----------------------
+2022-05-25 23:07:32 - root - DEBUG     - end_normal.py : 44 line - ----------------- C=1 ,gamma=5 ----------------------
+2022-05-25 23:07:32 - root - INFO      - end_normal.py : 48 line - preprocessing data...
+2022-05-25 23:07:38 - root - INFO      - end_normal.py : 63 line - preprocessing data...done
+2022-05-25 23:07:56 - root - INFO      - end_normal.py : 128 line - 270 mean accuracy:0.6743696327553836
+2022-05-25 23:07:56 - root - DEBUG     - end_normal.py : 43 line - -----------------300s----------------------
+2022-05-25 23:07:56 - root - DEBUG     - end_normal.py : 44 line - ----------------- C=1 ,gamma=5 ----------------------
+2022-05-25 23:07:56 - root - INFO      - end_normal.py : 48 line - preprocessing data...
+2022-05-25 23:08:00 - root - INFO      - end_normal.py : 63 line - preprocessing data...done
+2022-05-25 23:08:13 - root - INFO      - end_normal.py : 128 line - 300 mean accuracy:0.6971068800480565

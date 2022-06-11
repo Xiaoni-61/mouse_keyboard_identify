@@ -15,7 +15,7 @@ import copy
 if __name__ == "__main__":
     logging.basicConfig(level=logging.DEBUG  # 设置日志输出格式
                         , filename="MultipleClassifications.log"  # log日志输出的文件位置和文件名
-                        #, filemode="w"  # 文件的写入格式，w为重新写入文件，默认是追加
+                        # , filemode="w"  # 文件的写入格式，w为重新写入文件，默认是追加
                         ,
                         format="%(asctime)s - %(name)s - %(levelname)-9s - %(filename)-8s : %(lineno)s line - %(message)s"
                         # -8表示占位符，让输出左对齐，输出长度都为8位
@@ -61,8 +61,6 @@ if __name__ == "__main__":
 
         # preprocess data
 
-
-
         from MKLpy.preprocessing import normalization, rescale_01
 
         # Xsc = MinMaxScaler()
@@ -101,6 +99,7 @@ if __name__ == "__main__":
 
         # MKL algorithms
         from MKLpy.algorithms import AverageMKL, EasyMKL, KOMD
+
         # KOMD is not a MKL algorithm but a simple kernel machine like the SVM
 
         logging.info('training AverageMKL...')
@@ -535,4 +534,3 @@ if __name__ == "__main__":
         logging.info('roc AUC score:' + str(roc_auc))
         print('mouse:rbf_kernel keyboard:polynomial_kernel  Accuracy score: %.3f, roc AUC score: %.3f' % (
             accuracy, roc_auc))
-
